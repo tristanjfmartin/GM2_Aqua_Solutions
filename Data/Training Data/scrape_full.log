@@ -1,0 +1,2334 @@
+Scraping NMMP reports for years: [1990, 1991, 1992, 1993, 1994, 1995, 1996, 1997, 1998, 1999, 2000, 2001, 2002, 2003, 2004, 2005, 2006, 2007, 2008, 2009, 2010, 2011, 2012, 2013, 2014, 2015, 2016, 2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024]
+Filter: ph+turb
+Output: /Users/tristanmartin/Desktop/GM2/Data/scraped/full_dataset.csv
+
+Indexing 1990: https://www.dws.gov.za/iwqs/microbio/report/WMA2012/NMMPkey_1990.htm
+Indexing 1991: https://www.dws.gov.za/iwqs/microbio/report/WMA2012/NMMPkey_1991.htm
+Indexing 1992: https://www.dws.gov.za/iwqs/microbio/report/WMA2012/NMMPkey_1992.htm
+Indexing 1993: https://www.dws.gov.za/iwqs/microbio/report/WMA2012/NMMPkey_1993.htm
+Indexing 1994: https://www.dws.gov.za/iwqs/microbio/report/WMA2012/NMMPkey_1994.htm
+Indexing 1995: https://www.dws.gov.za/iwqs/microbio/report/WMA2012/NMMPkey_1995.htm
+Indexing 1996: https://www.dws.gov.za/iwqs/microbio/report/WMA2012/NMMPkey_1996.htm
+Indexing 1997: https://www.dws.gov.za/iwqs/microbio/report/WMA2012/NMMPkey_1997.htm
+Indexing 1998: https://www.dws.gov.za/iwqs/microbio/report/WMA2012/NMMPkey_1998.htm
+Indexing 1999: https://www.dws.gov.za/iwqs/microbio/report/WMA2012/NMMPkey_1999.htm
+Indexing 2000: https://www.dws.gov.za/iwqs/microbio/report/WMA2012/NMMPkey_2000.htm
+Indexing 2001: https://www.dws.gov.za/iwqs/microbio/report/WMA2012/NMMPkey_2001.htm
+Indexing 2002: https://www.dws.gov.za/iwqs/microbio/report/WMA2012/NMMPkey_2002.htm
+Indexing 2003: https://www.dws.gov.za/iwqs/microbio/report/WMA2012/NMMPkey_2003.htm
+Indexing 2004: https://www.dws.gov.za/iwqs/microbio/report/WMA2012/NMMPkey_2004.htm
+Indexing 2005: https://www.dws.gov.za/iwqs/microbio/report/WMA2012/NMMPkey_2005.htm
+Indexing 2006: https://www.dws.gov.za/iwqs/microbio/report/WMA2012/NMMPkey_2006.htm
+Indexing 2007: https://www.dws.gov.za/iwqs/microbio/report/WMA2012/NMMPkey_2007.htm
+Indexing 2008: https://www.dws.gov.za/iwqs/microbio/report/WMA2012/NMMPkey_2008.htm
+Indexing 2009: https://www.dws.gov.za/iwqs/microbio/report/WMA2012/NMMPkey_2009.htm
+Indexing 2010: https://www.dws.gov.za/iwqs/microbio/report/WMA2012/NMMPkey_2010.htm
+Indexing 2011: https://www.dws.gov.za/iwqs/microbio/report/WMA2012/NMMPkey_2011.htm
+Indexing 2012: https://www.dws.gov.za/iwqs/microbio/report/WMA2012/NMMPkey_2012.htm
+Indexing 2013: https://www.dws.gov.za/iwqs/microbio/report/WMA2012/NMMPkey_2013.htm
+Indexing 2014: https://www.dws.gov.za/iwqs/microbio/report/WMA2012/NMMPkey_2014.htm
+Indexing 2015: https://www.dws.gov.za/iwqs/microbio/report/WMA2012/NMMPkey_2015.htm
+Indexing 2016: https://www.dws.gov.za/iwqs/microbio/report/WMA2012/NMMPkey_2016.htm
+Indexing 2017: https://www.dws.gov.za/iwqs/microbio/report/WMA2012/NMMPkey_2017.htm
+Indexing 2018: https://www.dws.gov.za/iwqs/microbio/report/WMA2012/NMMPkey_2018.htm
+Indexing 2019: https://www.dws.gov.za/iwqs/microbio/report/WMA2012/NMMPkey_2019.htm
+Indexing 2020: https://www.dws.gov.za/iwqs/microbio/report/WMA2012/NMMPkey_2020.htm
+Indexing 2021: https://www.dws.gov.za/iwqs/microbio/report/WMA2012/NMMPkey_2021.htm
+Indexing 2022: https://www.dws.gov.za/iwqs/microbio/report/WMA2012/NMMPkey_2022.htm
+Indexing 2023: https://www.dws.gov.za/iwqs/microbio/report/WMA2012/NMMPkey_2023.htm
+Indexing 2024: https://www.dws.gov.za/iwqs/microbio/report/WMA2012/NMMPkey_2024.htm
+Discovered 1144 report URLs.
+
+[1/1144] Pongola_Mtamvuna          1990-01-01 -> 1990-02-28
+   parsed 54 rows (running total: 54)
+[2/1144] Pongola_Mtamvuna          1990-03-01 -> 1990-04-30
+   parsed 60 rows (running total: 114)
+[3/1144] Pongola_Mtamvuna          1990-05-01 -> 1990-06-30
+   parsed 53 rows (running total: 167)
+[4/1144] Pongola_Mtamvuna          1990-07-01 -> 1990-08-31
+   parsed 60 rows (running total: 227)
+[5/1144] Pongola_Mtamvuna          1990-09-01 -> 1990-10-31
+   parsed 53 rows (running total: 280)
+[6/1144] Pongola_Mtamvuna          1990-11-01 -> 1990-12-31
+   parsed 57 rows (running total: 337)
+[7/1144] Pongola_Mtamvuna          1991-01-01 -> 1991-02-28
+   parsed 57 rows (running total: 394)
+[8/1144] Pongola_Mtamvuna          1991-03-01 -> 1991-04-30
+   parsed 60 rows (running total: 454)
+[9/1144] Pongola_Mtamvuna          1991-05-01 -> 1991-06-30
+   parsed 53 rows (running total: 507)
+[10/1144] Pongola_Mtamvuna          1991-07-01 -> 1991-08-31
+   parsed 56 rows (running total: 563)
+[11/1144] Pongola_Mtamvuna          1991-09-01 -> 1991-10-31
+   parsed 57 rows (running total: 620)
+[12/1144] Pongola_Mtamvuna          1991-11-01 -> 1991-12-31
+   parsed 54 rows (running total: 674)
+[13/1144] Pongola_Mtamvuna          1992-01-01 -> 1992-02-29
+   parsed 53 rows (running total: 727)
+[14/1144] Pongola_Mtamvuna          1992-03-01 -> 1992-04-30
+   parsed 62 rows (running total: 789)
+[15/1144] Pongola_Mtamvuna          1992-05-01 -> 1992-06-30
+   parsed 58 rows (running total: 847)
+[16/1144] Pongola_Mtamvuna          1992-07-01 -> 1992-08-31
+   parsed 59 rows (running total: 906)
+[17/1144] Pongola_Mtamvuna          1992-09-01 -> 1992-10-31
+   parsed 59 rows (running total: 965)
+[18/1144] Pongola_Mtamvuna          1992-11-01 -> 1992-12-31
+   parsed 61 rows (running total: 1026)
+[19/1144] Pongola_Mtamvuna          1993-01-01 -> 1993-02-28
+   parsed 53 rows (running total: 1079)
+[20/1144] Pongola_Mtamvuna          1993-03-01 -> 1993-04-30
+   parsed 57 rows (running total: 1136)
+[21/1144] Pongola_Mtamvuna          1993-05-01 -> 1993-06-30
+   parsed 54 rows (running total: 1190)
+[22/1144] Pongola_Mtamvuna          1993-07-01 -> 1993-08-31
+   parsed 60 rows (running total: 1250)
+[23/1144] Pongola_Mtamvuna          1993-09-01 -> 1993-10-31
+   parsed 59 rows (running total: 1309)
+[24/1144] Pongola_Mtamvuna          1993-11-01 -> 1993-12-31
+   parsed 74 rows (running total: 1383)
+[25/1144] Limpopo                   1994-01-01 -> 1994-02-28
+   parsed 13 rows (running total: 1396)
+[26/1144] Pongola_Mtamvuna          1994-01-01 -> 1994-02-28
+   parsed 74 rows (running total: 1470)
+[27/1144] Limpopo                   1994-03-01 -> 1994-04-30
+   parsed 44 rows (running total: 1514)
+[28/1144] Pongola_Mtamvuna          1994-03-01 -> 1994-04-30
+   parsed 63 rows (running total: 1577)
+[29/1144] Limpopo                   1994-05-01 -> 1994-06-30
+   parsed 54 rows (running total: 1631)
+[30/1144] Pongola_Mtamvuna          1994-05-01 -> 1994-06-30
+   parsed 70 rows (running total: 1701)
+[31/1144] Limpopo                   1994-07-01 -> 1994-08-31
+   parsed 54 rows (running total: 1755)
+[32/1144] Pongola_Mtamvuna          1994-07-01 -> 1994-08-31
+   parsed 75 rows (running total: 1830)
+[33/1144] Limpopo                   1994-09-01 -> 1994-10-31
+   parsed 54 rows (running total: 1884)
+[34/1144] Pongola_Mtamvuna          1994-09-01 -> 1994-10-31
+   parsed 77 rows (running total: 1961)
+[35/1144] Limpopo                   1994-11-01 -> 1994-12-31
+   parsed 44 rows (running total: 2005)
+[36/1144] Pongola_Mtamvuna          1994-11-01 -> 1994-12-31
+   parsed 71 rows (running total: 2076)
+[37/1144] Limpopo                   1995-01-01 -> 1995-02-28
+   parsed 48 rows (running total: 2124)
+[38/1144] Pongola_Mtamvuna          1995-01-01 -> 1995-02-28
+   parsed 73 rows (running total: 2197)
+[39/1144] Limpopo                   1995-03-01 -> 1995-04-30
+   parsed 73 rows (running total: 2270)
+[40/1144] Pongola_Mtamvuna          1995-03-01 -> 1995-04-30
+   parsed 71 rows (running total: 2341)
+[41/1144] Limpopo                   1995-05-01 -> 1995-06-30
+   parsed 97 rows (running total: 2438)
+[42/1144] Pongola_Mtamvuna          1995-05-01 -> 1995-06-30
+   parsed 77 rows (running total: 2515)
+[43/1144] Limpopo                   1995-07-01 -> 1995-08-31
+   parsed 77 rows (running total: 2592)
+[44/1144] Pongola_Mtamvuna          1995-07-01 -> 1995-08-31
+   parsed 79 rows (running total: 2671)
+[45/1144] Limpopo                   1995-09-01 -> 1995-10-31
+   parsed 93 rows (running total: 2764)
+[46/1144] Pongola_Mtamvuna          1995-09-01 -> 1995-10-31
+   parsed 77 rows (running total: 2841)
+[47/1144] Limpopo                   1995-11-01 -> 1995-12-31
+   parsed 74 rows (running total: 2915)
+[48/1144] Pongola_Mtamvuna          1995-11-01 -> 1995-12-31
+   parsed 75 rows (running total: 2990)
+[49/1144] Limpopo                   1996-01-01 -> 1996-02-29
+   parsed 88 rows (running total: 3078)
+[50/1144] Pongola_Mtamvuna          1996-01-01 -> 1996-02-29
+   parsed 85 rows (running total: 3163)
+[51/1144] Limpopo                   1996-03-01 -> 1996-04-30
+   parsed 98 rows (running total: 3261)
+[52/1144] Pongola_Mtamvuna          1996-03-01 -> 1996-04-30
+   parsed 79 rows (running total: 3340)
+[53/1144] Limpopo                   1996-05-01 -> 1996-06-30
+   parsed 88 rows (running total: 3428)
+[54/1144] Pongola_Mtamvuna          1996-05-01 -> 1996-06-30
+   parsed 73 rows (running total: 3501)
+[55/1144] Limpopo                   1996-07-01 -> 1996-08-31
+   parsed 99 rows (running total: 3600)
+[56/1144] Pongola_Mtamvuna          1996-07-01 -> 1996-08-31
+   parsed 74 rows (running total: 3674)
+[57/1144] Limpopo                   1996-09-01 -> 1996-10-31
+   parsed 97 rows (running total: 3771)
+[58/1144] Pongola_Mtamvuna          1996-09-01 -> 1996-10-31
+   parsed 77 rows (running total: 3848)
+[59/1144] Limpopo                   1996-11-01 -> 1996-12-31
+   parsed 69 rows (running total: 3917)
+[60/1144] Pongola_Mtamvuna          1996-11-01 -> 1996-12-31
+   parsed 69 rows (running total: 3986)
+[61/1144] Limpopo                   1997-01-01 -> 1997-02-28
+   parsed 77 rows (running total: 4063)
+[62/1144] Pongola_Mtamvuna          1997-01-01 -> 1997-02-28
+   parsed 81 rows (running total: 4144)
+[63/1144] Limpopo                   1997-03-01 -> 1997-04-30
+   parsed 82 rows (running total: 4226)
+[64/1144] Pongola_Mtamvuna          1997-03-01 -> 1997-04-30
+   parsed 86 rows (running total: 4312)
+[65/1144] Limpopo                   1997-05-01 -> 1997-06-30
+   parsed 93 rows (running total: 4405)
+[66/1144] Pongola_Mtamvuna          1997-05-01 -> 1997-06-30
+   parsed 96 rows (running total: 4501)
+[67/1144] Limpopo                   1997-07-01 -> 1997-08-31
+   parsed 64 rows (running total: 4565)
+[68/1144] Pongola_Mtamvuna          1997-07-01 -> 1997-08-31
+   parsed 93 rows (running total: 4658)
+[69/1144] Limpopo                   1997-09-01 -> 1997-10-31
+   parsed 85 rows (running total: 4743)
+[70/1144] Pongola_Mtamvuna          1997-09-01 -> 1997-10-31
+   parsed 97 rows (running total: 4840)
+[71/1144] Limpopo                   1997-11-01 -> 1997-12-31
+   parsed 86 rows (running total: 4926)
+[72/1144] Pongola_Mtamvuna          1997-11-01 -> 1997-12-31
+   parsed 90 rows (running total: 5016)
+[73/1144] Limpopo                   1998-01-01 -> 1998-02-28
+   parsed 87 rows (running total: 5103)
+[74/1144] Pongola_Mtamvuna          1998-01-01 -> 1998-02-28
+   parsed 89 rows (running total: 5192)
+[75/1144] Limpopo                   1998-03-01 -> 1998-04-30
+   parsed 99 rows (running total: 5291)
+[76/1144] Pongola_Mtamvuna          1998-03-01 -> 1998-04-30
+   parsed 92 rows (running total: 5383)
+[77/1144] Limpopo                   1998-05-01 -> 1998-06-30
+   parsed 93 rows (running total: 5476)
+[78/1144] Pongola_Mtamvuna          1998-05-01 -> 1998-06-30
+   parsed 93 rows (running total: 5569)
+[79/1144] Limpopo                   1998-07-01 -> 1998-08-31
+   parsed 99 rows (running total: 5668)
+[80/1144] Pongola_Mtamvuna          1998-07-01 -> 1998-08-31
+   parsed 95 rows (running total: 5763)
+[81/1144] Limpopo                   1998-09-01 -> 1998-10-31
+   parsed 88 rows (running total: 5851)
+[82/1144] Pongola_Mtamvuna          1998-09-01 -> 1998-10-31
+   parsed 96 rows (running total: 5947)
+[83/1144] Limpopo                   1998-11-01 -> 1998-12-31
+   parsed 88 rows (running total: 6035)
+[84/1144] Pongola_Mtamvuna          1998-11-01 -> 1998-12-31
+   parsed 101 rows (running total: 6136)
+[85/1144] Limpopo                   1999-01-01 -> 1999-02-28
+   parsed 88 rows (running total: 6224)
+[86/1144] Pongola_Mtamvuna          1999-01-01 -> 1999-02-28
+   parsed 94 rows (running total: 6318)
+[87/1144] Limpopo                   1999-03-01 -> 1999-04-30
+   parsed 98 rows (running total: 6416)
+[88/1144] Pongola_Mtamvuna          1999-03-01 -> 1999-04-30
+   parsed 102 rows (running total: 6518)
+[89/1144] Limpopo                   1999-05-01 -> 1999-06-30
+   parsed 91 rows (running total: 6609)
+[90/1144] Pongola_Mtamvuna          1999-05-01 -> 1999-06-30
+   parsed 94 rows (running total: 6703)
+[91/1144] Limpopo                   1999-07-01 -> 1999-08-31
+   parsed 71 rows (running total: 6774)
+[92/1144] Pongola_Mtamvuna          1999-07-01 -> 1999-08-31
+   parsed 97 rows (running total: 6871)
+[93/1144] Limpopo                   1999-09-01 -> 1999-10-31
+   parsed 90 rows (running total: 6961)
+[94/1144] Pongola_Mtamvuna          1999-09-01 -> 1999-10-31
+   parsed 95 rows (running total: 7056)
+[95/1144] Limpopo                   1999-11-01 -> 1999-12-31
+   parsed 95 rows (running total: 7151)
+[96/1144] Pongola_Mtamvuna          1999-11-01 -> 1999-12-31
+   parsed 90 rows (running total: 7241)
+[97/1144] Limpopo                   2000-01-01 -> 2000-02-29
+   parsed 126 rows (running total: 7367)
+[98/1144] Orange                    2000-01-01 -> 2000-02-29
+   parsed 9 rows (running total: 7376)
+[99/1144] Pongola_Mtamvuna          2000-01-01 -> 2000-02-29
+   parsed 99 rows (running total: 7475)
+[100/1144] Limpopo                   2000-03-01 -> 2000-04-30
+   parsed 92 rows (running total: 7567)
+[101/1144] Orange                    2000-03-01 -> 2000-04-30
+   parsed 21 rows (running total: 7588)
+[102/1144] Pongola_Mtamvuna          2000-03-01 -> 2000-04-30
+   parsed 82 rows (running total: 7670)
+[103/1144] Limpopo                   2000-05-01 -> 2000-06-30
+   parsed 123 rows (running total: 7793)
+[104/1144] Orange                    2000-05-01 -> 2000-06-30
+   parsed 18 rows (running total: 7811)
+[105/1144] Pongola_Mtamvuna          2000-05-01 -> 2000-06-30
+   parsed 95 rows (running total: 7906)
+[106/1144] Limpopo                   2000-07-01 -> 2000-08-31
+   parsed 120 rows (running total: 8026)
+[107/1144] Orange                    2000-07-01 -> 2000-08-31
+   parsed 24 rows (running total: 8050)
+[108/1144] Pongola_Mtamvuna          2000-07-01 -> 2000-08-31
+   parsed 97 rows (running total: 8147)
+[109/1144] Berg_Olifants             2000-07-01 -> 2000-08-31
+   parsed 9 rows (running total: 8156)
+[110/1144] Limpopo                   2000-09-01 -> 2000-10-31
+   parsed 123 rows (running total: 8279)
+[111/1144] Orange                    2000-09-01 -> 2000-10-31
+   parsed 27 rows (running total: 8306)
+[112/1144] Pongola_Mtamvuna          2000-09-01 -> 2000-10-31
+   parsed 88 rows (running total: 8394)
+[113/1144] Berg_Olifants             2000-09-01 -> 2000-10-31
+   parsed 9 rows (running total: 8403)
+[114/1144] Limpopo                   2000-11-01 -> 2000-12-31
+   parsed 80 rows (running total: 8483)
+[115/1144] Orange                    2000-11-01 -> 2000-12-31
+   parsed 20 rows (running total: 8503)
+[116/1144] Pongola_Mtamvuna          2000-11-01 -> 2000-12-31
+   parsed 67 rows (running total: 8570)
+[117/1144] Berg_Olifants             2000-11-01 -> 2000-12-31
+   parsed 9 rows (running total: 8579)
+[118/1144] Limpopo                   2001-01-01 -> 2001-02-28
+   parsed 120 rows (running total: 8699)
+[119/1144] Orange                    2001-01-01 -> 2001-02-28
+   parsed 24 rows (running total: 8723)
+[120/1144] Pongola_Mtamvuna          2001-01-01 -> 2001-02-28
+   parsed 103 rows (running total: 8826)
+[121/1144] Berg_Olifants             2001-01-01 -> 2001-02-28
+   parsed 12 rows (running total: 8838)
+[122/1144] Limpopo                   2001-03-01 -> 2001-04-30
+   parsed 114 rows (running total: 8952)
+[123/1144] Orange                    2001-03-01 -> 2001-04-30
+   parsed 27 rows (running total: 8979)
+[124/1144] Vaal                      2001-03-01 -> 2001-04-30
+   parsed 3 rows (running total: 8982)
+[125/1144] Pongola_Mtamvuna          2001-03-01 -> 2001-04-30
+   parsed 90 rows (running total: 9072)
+[126/1144] Berg_Olifants             2001-03-01 -> 2001-04-30
+   parsed 12 rows (running total: 9084)
+[127/1144] Limpopo                   2001-05-01 -> 2001-06-30
+   parsed 114 rows (running total: 9198)
+[128/1144] Orange                    2001-05-01 -> 2001-06-30
+   parsed 21 rows (running total: 9219)
+[129/1144] Vaal                      2001-05-01 -> 2001-06-30
+   parsed 3 rows (running total: 9222)
+[130/1144] Pongola_Mtamvuna          2001-05-01 -> 2001-06-30
+   parsed 105 rows (running total: 9327)
+[131/1144] Berg_Olifants             2001-05-01 -> 2001-06-30
+   parsed 9 rows (running total: 9336)
+[132/1144] Limpopo                   2001-07-01 -> 2001-08-31
+   parsed 115 rows (running total: 9451)
+[133/1144] Orange                    2001-07-01 -> 2001-08-31
+   parsed 39 rows (running total: 9490)
+[134/1144] Vaal                      2001-07-01 -> 2001-08-31
+   parsed 9 rows (running total: 9499)
+[135/1144] Pongola_Mtamvuna          2001-07-01 -> 2001-08-31
+   parsed 93 rows (running total: 9592)
+[136/1144] Berg_Olifants             2001-07-01 -> 2001-08-31
+   parsed 12 rows (running total: 9604)
+[137/1144] Mzimvubu_Tsitsikamma      2001-07-01 -> 2001-08-31
+   parsed 36 rows (running total: 9640)
+[138/1144] Limpopo                   2001-09-01 -> 2001-10-31
+   parsed 127 rows (running total: 9767)
+[139/1144] Orange                    2001-09-01 -> 2001-10-31
+   parsed 51 rows (running total: 9818)
+[140/1144] Vaal                      2001-09-01 -> 2001-10-31
+   parsed 14 rows (running total: 9832)
+[141/1144] Pongola_Mtamvuna          2001-09-01 -> 2001-10-31
+   parsed 60 rows (running total: 9892)
+[142/1144] Berg_Olifants             2001-09-01 -> 2001-10-31
+   parsed 12 rows (running total: 9904)
+[143/1144] Mzimvubu_Tsitsikamma      2001-09-01 -> 2001-10-31
+   parsed 35 rows (running total: 9939)
+[144/1144] Limpopo                   2001-11-01 -> 2001-12-31
+   parsed 108 rows (running total: 10047)
+[145/1144] Olifants                  2001-11-01 -> 2001-12-31
+   parsed 24 rows (running total: 10071)
+[146/1144] Inkomati_Usuthu           2001-11-01 -> 2001-12-31
+   parsed 3 rows (running total: 10074)
+[147/1144] Orange                    2001-11-01 -> 2001-12-31
+   parsed 38 rows (running total: 10112)
+[148/1144] Vaal                      2001-11-01 -> 2001-12-31
+   parsed 9 rows (running total: 10121)
+[149/1144] Pongola_Mtamvuna          2001-11-01 -> 2001-12-31
+   parsed 55 rows (running total: 10176)
+[150/1144] Berg_Olifants             2001-11-01 -> 2001-12-31
+   parsed 12 rows (running total: 10188)
+[151/1144] Mzimvubu_Tsitsikamma      2001-11-01 -> 2001-12-31
+   parsed 28 rows (running total: 10216)
+[152/1144] Limpopo                   2002-01-01 -> 2002-02-28
+   parsed 134 rows (running total: 10350)
+[153/1144] Olifants                  2002-01-01 -> 2002-02-28
+   parsed 27 rows (running total: 10377)
+[154/1144] Inkomati_Usuthu           2002-01-01 -> 2002-02-28
+   parsed 9 rows (running total: 10386)
+[155/1144] Orange                    2002-01-01 -> 2002-02-28
+   parsed 46 rows (running total: 10432)
+[156/1144] Vaal                      2002-01-01 -> 2002-02-28
+   parsed 7 rows (running total: 10439)
+[157/1144] Pongola_Mtamvuna          2002-01-01 -> 2002-02-28
+   parsed 74 rows (running total: 10513)
+[158/1144] Berg_Olifants             2002-01-01 -> 2002-02-28
+   parsed 3 rows (running total: 10516)
+[159/1144] Mzimvubu_Tsitsikamma      2002-01-01 -> 2002-02-28
+   parsed 34 rows (running total: 10550)
+[160/1144] Limpopo                   2002-03-01 -> 2002-04-30
+   parsed 146 rows (running total: 10696)
+[161/1144] Olifants                  2002-03-01 -> 2002-04-30
+   parsed 27 rows (running total: 10723)
+[162/1144] Inkomati_Usuthu           2002-03-01 -> 2002-04-30
+   parsed 15 rows (running total: 10738)
+[163/1144] Orange                    2002-03-01 -> 2002-04-30
+   parsed 48 rows (running total: 10786)
+[164/1144] Vaal                      2002-03-01 -> 2002-04-30
+   parsed 4 rows (running total: 10790)
+[165/1144] Pongola_Mtamvuna          2002-03-01 -> 2002-04-30
+   parsed 67 rows (running total: 10857)
+[166/1144] Berg_Olifants             2002-03-01 -> 2002-04-30
+   parsed 12 rows (running total: 10869)
+[167/1144] Mzimvubu_Tsitsikamma      2002-03-01 -> 2002-04-30
+   parsed 20 rows (running total: 10889)
+[168/1144] Limpopo                   2002-05-01 -> 2002-06-30
+   parsed 136 rows (running total: 11025)
+[169/1144] Olifants                  2002-05-01 -> 2002-06-30
+   parsed 24 rows (running total: 11049)
+[170/1144] Inkomati_Usuthu           2002-05-01 -> 2002-06-30
+   parsed 13 rows (running total: 11062)
+[171/1144] Orange                    2002-05-01 -> 2002-06-30
+   parsed 39 rows (running total: 11101)
+[172/1144] Vaal                      2002-05-01 -> 2002-06-30
+   parsed 2 rows (running total: 11103)
+[173/1144] Pongola_Mtamvuna          2002-05-01 -> 2002-06-30
+   parsed 62 rows (running total: 11165)
+[174/1144] Berg_Olifants             2002-05-01 -> 2002-06-30
+   parsed 12 rows (running total: 11177)
+[175/1144] Mzimvubu_Tsitsikamma      2002-05-01 -> 2002-06-30
+   parsed 11 rows (running total: 11188)
+[176/1144] Limpopo                   2002-07-01 -> 2002-08-31
+   parsed 156 rows (running total: 11344)
+[177/1144] Olifants                  2002-07-01 -> 2002-08-31
+   parsed 24 rows (running total: 11368)
+[178/1144] Inkomati_Usuthu           2002-07-01 -> 2002-08-31
+   parsed 19 rows (running total: 11387)
+[179/1144] Orange                    2002-07-01 -> 2002-08-31
+   parsed 42 rows (running total: 11429)
+[180/1144] Vaal                      2002-07-01 -> 2002-08-31
+   parsed 3 rows (running total: 11432)
+[181/1144] Pongola_Mtamvuna          2002-07-01 -> 2002-08-31
+   parsed 70 rows (running total: 11502)
+[182/1144] Berg_Olifants             2002-07-01 -> 2002-08-31
+   parsed 9 rows (running total: 11511)
+[183/1144] Mzimvubu_Tsitsikamma      2002-07-01 -> 2002-08-31
+   parsed 34 rows (running total: 11545)
+[184/1144] Limpopo                   2002-09-01 -> 2002-10-31
+   parsed 146 rows (running total: 11691)
+[185/1144] Olifants                  2002-09-01 -> 2002-10-31
+   parsed 27 rows (running total: 11718)
+[186/1144] Inkomati_Usuthu           2002-09-01 -> 2002-10-31
+   parsed 15 rows (running total: 11733)
+[187/1144] Orange                    2002-09-01 -> 2002-10-31
+   parsed 46 rows (running total: 11779)
+[188/1144] Vaal                      2002-09-01 -> 2002-10-31
+   parsed 1 rows (running total: 11780)
+[189/1144] Pongola_Mtamvuna          2002-09-01 -> 2002-10-31
+   parsed 69 rows (running total: 11849)
+[190/1144] Mzimvubu_Tsitsikamma      2002-09-01 -> 2002-10-31
+   parsed 33 rows (running total: 11882)
+[191/1144] Limpopo                   2002-11-01 -> 2002-12-31
+   parsed 117 rows (running total: 11999)
+[192/1144] Olifants                  2002-11-01 -> 2002-12-31
+   parsed 24 rows (running total: 12023)
+[193/1144] Orange                    2002-11-01 -> 2002-12-31
+   parsed 27 rows (running total: 12050)
+[194/1144] Vaal                      2002-11-01 -> 2002-12-31
+   parsed 2 rows (running total: 12052)
+[195/1144] Pongola_Mtamvuna          2002-11-01 -> 2002-12-31
+   parsed 81 rows (running total: 12133)
+[196/1144] Berg_Olifants             2002-11-01 -> 2002-12-31
+   parsed 12 rows (running total: 12145)
+[197/1144] Mzimvubu_Tsitsikamma      2002-11-01 -> 2002-12-31
+   parsed 35 rows (running total: 12180)
+[198/1144] Limpopo                   2003-01-01 -> 2003-02-28
+   parsed 172 rows (running total: 12352)
+[199/1144] Olifants                  2003-01-01 -> 2003-02-28
+   parsed 24 rows (running total: 12376)
+[200/1144] Orange                    2003-01-01 -> 2003-02-28
+   parsed 34 rows (running total: 12410)
+[201/1144] Vaal                      2003-01-01 -> 2003-02-28
+   parsed 3 rows (running total: 12413)
+[202/1144] Pongola_Mtamvuna          2003-01-01 -> 2003-02-28
+   parsed 80 rows (running total: 12493)
+[203/1144] Berg_Olifants             2003-01-01 -> 2003-02-28
+   parsed 12 rows (running total: 12505)
+[204/1144] Mzimvubu_Tsitsikamma      2003-01-01 -> 2003-02-28
+   parsed 31 rows (running total: 12536)
+[205/1144] Limpopo                   2003-03-01 -> 2003-04-30
+   parsed 189 rows (running total: 12725)
+[206/1144] Olifants                  2003-03-01 -> 2003-04-30
+   parsed 24 rows (running total: 12749)
+[207/1144] Orange                    2003-03-01 -> 2003-04-30
+   parsed 53 rows (running total: 12802)
+[208/1144] Vaal                      2003-03-01 -> 2003-04-30
+   parsed 2 rows (running total: 12804)
+[209/1144] Pongola_Mtamvuna          2003-03-01 -> 2003-04-30
+   parsed 103 rows (running total: 12907)
+[210/1144] Berg_Olifants             2003-03-01 -> 2003-04-30
+   parsed 12 rows (running total: 12919)
+[211/1144] Mzimvubu_Tsitsikamma      2003-03-01 -> 2003-04-30
+   parsed 29 rows (running total: 12948)
+[212/1144] Limpopo                   2003-05-01 -> 2003-06-30
+   parsed 183 rows (running total: 13131)
+[213/1144] Olifants                  2003-05-01 -> 2003-06-30
+   parsed 24 rows (running total: 13155)
+[214/1144] Orange                    2003-05-01 -> 2003-06-30
+   parsed 45 rows (running total: 13200)
+[215/1144] Vaal                      2003-05-01 -> 2003-06-30
+   parsed 2 rows (running total: 13202)
+[216/1144] Pongola_Mtamvuna          2003-05-01 -> 2003-06-30
+   parsed 95 rows (running total: 13297)
+[217/1144] Berg_Olifants             2003-05-01 -> 2003-06-30
+   parsed 42 rows (running total: 13339)
+[218/1144] Mzimvubu_Tsitsikamma      2003-05-01 -> 2003-06-30
+   parsed 56 rows (running total: 13395)
+[219/1144] Limpopo                   2003-07-01 -> 2003-08-31
+   parsed 159 rows (running total: 13554)
+[220/1144] Olifants                  2003-07-01 -> 2003-08-31
+   parsed 4 rows (running total: 13558)
+[221/1144] Inkomati_Usuthu           2003-07-01 -> 2003-08-31
+   parsed 9 rows (running total: 13567)
+[222/1144] Orange                    2003-07-01 -> 2003-08-31
+   parsed 51 rows (running total: 13618)
+[223/1144] Vaal                      2003-07-01 -> 2003-08-31
+   parsed 2 rows (running total: 13620)
+[224/1144] Pongola_Mtamvuna          2003-07-01 -> 2003-08-31
+   parsed 100 rows (running total: 13720)
+[225/1144] Berg_Olifants             2003-07-01 -> 2003-08-31
+   parsed 48 rows (running total: 13768)
+[226/1144] Mzimvubu_Tsitsikamma      2003-07-01 -> 2003-08-31
+   parsed 61 rows (running total: 13829)
+[227/1144] Limpopo                   2003-09-01 -> 2003-10-31
+   parsed 194 rows (running total: 14023)
+[228/1144] Olifants                  2003-09-01 -> 2003-10-31
+   parsed 32 rows (running total: 14055)
+[229/1144] Inkomati_Usuthu           2003-09-01 -> 2003-10-31
+   parsed 12 rows (running total: 14067)
+[230/1144] Orange                    2003-09-01 -> 2003-10-31
+   parsed 53 rows (running total: 14120)
+[231/1144] Vaal                      2003-09-01 -> 2003-10-31
+   parsed 3 rows (running total: 14123)
+[232/1144] Pongola_Mtamvuna          2003-09-01 -> 2003-10-31
+   parsed 89 rows (running total: 14212)
+[233/1144] Berg_Olifants             2003-09-01 -> 2003-10-31
+   parsed 40 rows (running total: 14252)
+[234/1144] Mzimvubu_Tsitsikamma      2003-09-01 -> 2003-10-31
+   parsed 66 rows (running total: 14318)
+[235/1144] Limpopo                   2003-11-01 -> 2003-12-31
+   parsed 135 rows (running total: 14453)
+[236/1144] Olifants                  2003-11-01 -> 2003-12-31
+   parsed 32 rows (running total: 14485)
+[237/1144] Inkomati_Usuthu           2003-11-01 -> 2003-12-31
+   parsed 9 rows (running total: 14494)
+[238/1144] Orange                    2003-11-01 -> 2003-12-31
+   parsed 47 rows (running total: 14541)
+[239/1144] Vaal                      2003-11-01 -> 2003-12-31
+   parsed 4 rows (running total: 14545)
+[240/1144] Pongola_Mtamvuna          2003-11-01 -> 2003-12-31
+   parsed 90 rows (running total: 14635)
+[241/1144] Berg_Olifants             2003-11-01 -> 2003-12-31
+   parsed 18 rows (running total: 14653)
+[242/1144] Mzimvubu_Tsitsikamma      2003-11-01 -> 2003-12-31
+   parsed 58 rows (running total: 14711)
+[243/1144] Limpopo                   2004-01-01 -> 2004-02-29
+   parsed 183 rows (running total: 14894)
+[244/1144] Olifants                  2004-01-01 -> 2004-02-29
+   parsed 20 rows (running total: 14914)
+[245/1144] Inkomati_Usuthu           2004-01-01 -> 2004-02-29
+   parsed 23 rows (running total: 14937)
+[246/1144] Orange                    2004-01-01 -> 2004-02-29
+   parsed 47 rows (running total: 14984)
+[247/1144] Vaal                      2004-01-01 -> 2004-02-29
+   parsed 7 rows (running total: 14991)
+[248/1144] Pongola_Mtamvuna          2004-01-01 -> 2004-02-29
+   parsed 87 rows (running total: 15078)
+[249/1144] Berg_Olifants             2004-01-01 -> 2004-02-29
+   parsed 40 rows (running total: 15118)
+[250/1144] Mzimvubu_Tsitsikamma      2004-01-01 -> 2004-02-29
+   parsed 65 rows (running total: 15183)
+[251/1144] Limpopo                   2004-03-01 -> 2004-04-30
+   parsed 166 rows (running total: 15349)
+[252/1144] Olifants                  2004-03-01 -> 2004-04-30
+   parsed 19 rows (running total: 15368)
+[253/1144] Inkomati_Usuthu           2004-03-01 -> 2004-04-30
+   parsed 40 rows (running total: 15408)
+[254/1144] Orange                    2004-03-01 -> 2004-04-30
+   parsed 44 rows (running total: 15452)
+[255/1144] Vaal                      2004-03-01 -> 2004-04-30
+   parsed 5 rows (running total: 15457)
+[256/1144] Pongola_Mtamvuna          2004-03-01 -> 2004-04-30
+   parsed 110 rows (running total: 15567)
+[257/1144] Berg_Olifants             2004-03-01 -> 2004-04-30
+   parsed 57 rows (running total: 15624)
+[258/1144] Mzimvubu_Tsitsikamma      2004-03-01 -> 2004-04-30
+   parsed 60 rows (running total: 15684)
+[259/1144] Limpopo                   2004-05-01 -> 2004-06-30
+   parsed 180 rows (running total: 15864)
+[260/1144] Olifants                  2004-05-01 -> 2004-06-30
+   parsed 18 rows (running total: 15882)
+[261/1144] Inkomati_Usuthu           2004-05-01 -> 2004-06-30
+   parsed 1 rows (running total: 15883)
+[262/1144] Orange                    2004-05-01 -> 2004-06-30
+   parsed 41 rows (running total: 15924)
+[263/1144] Vaal                      2004-05-01 -> 2004-06-30
+   parsed 7 rows (running total: 15931)
+[264/1144] Pongola_Mtamvuna          2004-05-01 -> 2004-06-30
+   parsed 123 rows (running total: 16054)
+[265/1144] Berg_Olifants             2004-05-01 -> 2004-06-30
+   parsed 43 rows (running total: 16097)
+[266/1144] Mzimvubu_Tsitsikamma      2004-05-01 -> 2004-06-30
+   parsed 52 rows (running total: 16149)
+[267/1144] Limpopo                   2004-07-01 -> 2004-08-31
+   parsed 190 rows (running total: 16339)
+[268/1144] Olifants                  2004-07-01 -> 2004-08-31
+   parsed 16 rows (running total: 16355)
+[269/1144] Orange                    2004-07-01 -> 2004-08-31
+   parsed 55 rows (running total: 16410)
+[270/1144] Vaal                      2004-07-01 -> 2004-08-31
+   parsed 8 rows (running total: 16418)
+[271/1144] Pongola_Mtamvuna          2004-07-01 -> 2004-08-31
+   parsed 126 rows (running total: 16544)
+[272/1144] Berg_Olifants             2004-07-01 -> 2004-08-31
+   parsed 53 rows (running total: 16597)
+[273/1144] Mzimvubu_Tsitsikamma      2004-07-01 -> 2004-08-31
+   parsed 54 rows (running total: 16651)
+[274/1144] Breede_Gouritz            2004-07-01 -> 2004-08-31
+   parsed 8 rows (running total: 16659)
+[275/1144] Limpopo                   2004-09-01 -> 2004-10-31
+   parsed 201 rows (running total: 16860)
+[276/1144] Olifants                  2004-09-01 -> 2004-10-31
+   parsed 34 rows (running total: 16894)
+[277/1144] Orange                    2004-09-01 -> 2004-10-31
+   parsed 47 rows (running total: 16941)
+[278/1144] Vaal                      2004-09-01 -> 2004-10-31
+   parsed 8 rows (running total: 16949)
+[279/1144] Pongola_Mtamvuna          2004-09-01 -> 2004-10-31
+   parsed 111 rows (running total: 17060)
+[280/1144] Berg_Olifants             2004-09-01 -> 2004-10-31
+   parsed 51 rows (running total: 17111)
+[281/1144] Mzimvubu_Tsitsikamma      2004-09-01 -> 2004-10-31
+   parsed 56 rows (running total: 17167)
+[282/1144] Breede_Gouritz            2004-09-01 -> 2004-10-31
+   parsed 10 rows (running total: 17177)
+[283/1144] Limpopo                   2004-11-01 -> 2004-12-31
+   parsed 140 rows (running total: 17317)
+[284/1144] Olifants                  2004-11-01 -> 2004-12-31
+   parsed 36 rows (running total: 17353)
+[285/1144] Orange                    2004-11-01 -> 2004-12-31
+   parsed 61 rows (running total: 17414)
+[286/1144] Vaal                      2004-11-01 -> 2004-12-31
+   parsed 10 rows (running total: 17424)
+[287/1144] Pongola_Mtamvuna          2004-11-01 -> 2004-12-31
+   parsed 102 rows (running total: 17526)
+[288/1144] Berg_Olifants             2004-11-01 -> 2004-12-31
+   parsed 41 rows (running total: 17567)
+[289/1144] Mzimvubu_Tsitsikamma      2004-11-01 -> 2004-12-31
+   parsed 54 rows (running total: 17621)
+[290/1144] Breede_Gouritz            2004-11-01 -> 2004-12-31
+   parsed 7 rows (running total: 17628)
+[291/1144] Limpopo                   2005-01-01 -> 2005-02-28
+   parsed 182 rows (running total: 17810)
+[292/1144] Olifants                  2005-01-01 -> 2005-02-28
+   parsed 36 rows (running total: 17846)
+[293/1144] Orange                    2005-01-01 -> 2005-02-28
+   parsed 54 rows (running total: 17900)
+[294/1144] Vaal                      2005-01-01 -> 2005-02-28
+   parsed 5 rows (running total: 17905)
+[295/1144] Pongola_Mtamvuna          2005-01-01 -> 2005-02-28
+   parsed 113 rows (running total: 18018)
+[296/1144] Berg_Olifants             2005-01-01 -> 2005-02-28
+   parsed 32 rows (running total: 18050)
+[297/1144] Mzimvubu_Tsitsikamma      2005-01-01 -> 2005-02-28
+   parsed 63 rows (running total: 18113)
+[298/1144] Breede_Gouritz            2005-01-01 -> 2005-02-28
+   parsed 6 rows (running total: 18119)
+[299/1144] Limpopo                   2005-03-01 -> 2005-04-30
+   parsed 185 rows (running total: 18304)
+[300/1144] Olifants                  2005-03-01 -> 2005-04-30
+   parsed 28 rows (running total: 18332)
+[301/1144] Orange                    2005-03-01 -> 2005-04-30
+   parsed 77 rows (running total: 18409)
+[302/1144] Vaal                      2005-03-01 -> 2005-04-30
+   parsed 22 rows (running total: 18431)
+[303/1144] Pongola_Mtamvuna          2005-03-01 -> 2005-04-30
+   parsed 137 rows (running total: 18568)
+[304/1144] Berg_Olifants             2005-03-01 -> 2005-04-30
+   parsed 55 rows (running total: 18623)
+[305/1144] Mzimvubu_Tsitsikamma      2005-03-01 -> 2005-04-30
+   parsed 67 rows (running total: 18690)
+[306/1144] Breede_Gouritz            2005-03-01 -> 2005-04-30
+   parsed 8 rows (running total: 18698)
+[307/1144] Limpopo                   2005-05-01 -> 2005-06-30
+   parsed 195 rows (running total: 18893)
+[308/1144] Olifants                  2005-05-01 -> 2005-06-30
+   parsed 31 rows (running total: 18924)
+[309/1144] Orange                    2005-05-01 -> 2005-06-30
+   parsed 66 rows (running total: 18990)
+[310/1144] Vaal                      2005-05-01 -> 2005-06-30
+   parsed 24 rows (running total: 19014)
+[311/1144] Pongola_Mtamvuna          2005-05-01 -> 2005-06-30
+   parsed 115 rows (running total: 19129)
+[312/1144] Berg_Olifants             2005-05-01 -> 2005-06-30
+   parsed 46 rows (running total: 19175)
+[313/1144] Mzimvubu_Tsitsikamma      2005-05-01 -> 2005-06-30
+   parsed 67 rows (running total: 19242)
+[314/1144] Breede_Gouritz            2005-05-01 -> 2005-06-30
+   parsed 8 rows (running total: 19250)
+[315/1144] Limpopo                   2005-07-01 -> 2005-08-31
+   parsed 148 rows (running total: 19398)
+[316/1144] Olifants                  2005-07-01 -> 2005-08-31
+   parsed 15 rows (running total: 19413)
+[317/1144] Orange                    2005-07-01 -> 2005-08-31
+   parsed 21 rows (running total: 19434)
+[318/1144] Vaal                      2005-07-01 -> 2005-08-31
+   parsed 2 rows (running total: 19436)
+[319/1144] Pongola_Mtamvuna          2005-07-01 -> 2005-08-31
+   parsed 131 rows (running total: 19567)
+[320/1144] Berg_Olifants             2005-07-01 -> 2005-08-31
+   parsed 44 rows (running total: 19611)
+[321/1144] Mzimvubu_Tsitsikamma      2005-07-01 -> 2005-08-31
+   parsed 40 rows (running total: 19651)
+[322/1144] Breede_Gouritz            2005-07-01 -> 2005-08-31
+   parsed 8 rows (running total: 19659)
+[323/1144] Limpopo                   2005-09-01 -> 2005-10-31
+   parsed 142 rows (running total: 19801)
+[324/1144] Orange                    2005-09-01 -> 2005-10-31
+   parsed 51 rows (running total: 19852)
+[325/1144] Vaal                      2005-09-01 -> 2005-10-31
+   parsed 7 rows (running total: 19859)
+[326/1144] Pongola_Mtamvuna          2005-09-01 -> 2005-10-31
+   parsed 51 rows (running total: 19910)
+[327/1144] Mzimvubu_Tsitsikamma      2005-09-01 -> 2005-10-31
+   parsed 1 rows (running total: 19911)
+[328/1144] Limpopo                   2005-11-01 -> 2005-12-31
+   parsed 95 rows (running total: 20006)
+[329/1144] Olifants                  2005-11-01 -> 2005-12-31
+   parsed 16 rows (running total: 20022)
+[330/1144] Orange                    2005-11-01 -> 2005-12-31
+   parsed 35 rows (running total: 20057)
+[331/1144] Vaal                      2005-11-01 -> 2005-12-31
+   parsed 7 rows (running total: 20064)
+[332/1144] Pongola_Mtamvuna          2005-11-01 -> 2005-12-31
+   parsed 81 rows (running total: 20145)
+[333/1144] Mzimvubu_Tsitsikamma      2005-11-01 -> 2005-12-31
+   parsed 2 rows (running total: 20147)
+[334/1144] Limpopo                   2006-01-01 -> 2006-02-28
+   parsed 128 rows (running total: 20275)
+[335/1144] Olifants                  2006-01-01 -> 2006-02-28
+   parsed 40 rows (running total: 20315)
+[336/1144] Inkomati_Usuthu           2006-01-01 -> 2006-02-28
+   parsed 13 rows (running total: 20328)
+[337/1144] Orange                    2006-01-01 -> 2006-02-28
+   parsed 67 rows (running total: 20395)
+[338/1144] Vaal                      2006-01-01 -> 2006-02-28
+   parsed 5 rows (running total: 20400)
+[339/1144] Pongola_Mtamvuna          2006-01-01 -> 2006-02-28
+   parsed 101 rows (running total: 20501)
+[340/1144] Mzimvubu_Tsitsikamma      2006-01-01 -> 2006-02-28
+   parsed 24 rows (running total: 20525)
+[341/1144] Limpopo                   2006-03-01 -> 2006-04-30
+   parsed 134 rows (running total: 20659)
+[342/1144] Olifants                  2006-03-01 -> 2006-04-30
+   parsed 50 rows (running total: 20709)
+[343/1144] Inkomati_Usuthu           2006-03-01 -> 2006-04-30
+   parsed 26 rows (running total: 20735)
+[344/1144] Orange                    2006-03-01 -> 2006-04-30
+   parsed 89 rows (running total: 20824)
+[345/1144] Vaal                      2006-03-01 -> 2006-04-30
+   parsed 22 rows (running total: 20846)
+[346/1144] Pongola_Mtamvuna          2006-03-01 -> 2006-04-30
+   parsed 106 rows (running total: 20952)
+[347/1144] Berg_Olifants             2006-03-01 -> 2006-04-30
+   parsed 44 rows (running total: 20996)
+[348/1144] Mzimvubu_Tsitsikamma      2006-03-01 -> 2006-04-30
+   parsed 69 rows (running total: 21065)
+[349/1144] Breede_Gouritz            2006-03-01 -> 2006-04-30
+   parsed 15 rows (running total: 21080)
+[350/1144] Limpopo                   2006-05-01 -> 2006-06-30
+   parsed 139 rows (running total: 21219)
+[351/1144] Olifants                  2006-05-01 -> 2006-06-30
+   parsed 65 rows (running total: 21284)
+[352/1144] Inkomati_Usuthu           2006-05-01 -> 2006-06-30
+   parsed 53 rows (running total: 21337)
+[353/1144] Orange                    2006-05-01 -> 2006-06-30
+   parsed 63 rows (running total: 21400)
+[354/1144] Vaal                      2006-05-01 -> 2006-06-30
+   parsed 32 rows (running total: 21432)
+[355/1144] Pongola_Mtamvuna          2006-05-01 -> 2006-06-30
+   parsed 143 rows (running total: 21575)
+[356/1144] Berg_Olifants             2006-05-01 -> 2006-06-30
+   parsed 58 rows (running total: 21633)
+[357/1144] Mzimvubu_Tsitsikamma      2006-05-01 -> 2006-06-30
+   parsed 63 rows (running total: 21696)
+[358/1144] Breede_Gouritz            2006-05-01 -> 2006-06-30
+   parsed 18 rows (running total: 21714)
+[359/1144] Limpopo                   2006-07-01 -> 2006-08-31
+   parsed 156 rows (running total: 21870)
+[360/1144] Olifants                  2006-07-01 -> 2006-08-31
+   parsed 45 rows (running total: 21915)
+[361/1144] Inkomati_Usuthu           2006-07-01 -> 2006-08-31
+   parsed 42 rows (running total: 21957)
+[362/1144] Orange                    2006-07-01 -> 2006-08-31
+   parsed 65 rows (running total: 22022)
+[363/1144] Vaal                      2006-07-01 -> 2006-08-31
+   parsed 34 rows (running total: 22056)
+[364/1144] Pongola_Mtamvuna          2006-07-01 -> 2006-08-31
+   parsed 154 rows (running total: 22210)
+[365/1144] Berg_Olifants             2006-07-01 -> 2006-08-31
+   parsed 48 rows (running total: 22258)
+[366/1144] Mzimvubu_Tsitsikamma      2006-07-01 -> 2006-08-31
+   parsed 24 rows (running total: 22282)
+[367/1144] Breede_Gouritz            2006-07-01 -> 2006-08-31
+   parsed 14 rows (running total: 22296)
+[368/1144] Limpopo                   2006-09-01 -> 2006-10-31
+   parsed 141 rows (running total: 22437)
+[369/1144] Olifants                  2006-09-01 -> 2006-10-31
+   parsed 36 rows (running total: 22473)
+[370/1144] Inkomati_Usuthu           2006-09-01 -> 2006-10-31
+   parsed 27 rows (running total: 22500)
+[371/1144] Orange                    2006-09-01 -> 2006-10-31
+   parsed 45 rows (running total: 22545)
+[372/1144] Vaal                      2006-09-01 -> 2006-10-31
+   parsed 15 rows (running total: 22560)
+[373/1144] Pongola_Mtamvuna          2006-09-01 -> 2006-10-31
+   parsed 131 rows (running total: 22691)
+[374/1144] Mzimvubu_Tsitsikamma      2006-09-01 -> 2006-10-31
+   parsed 21 rows (running total: 22712)
+[375/1144] Breede_Gouritz            2006-09-01 -> 2006-10-31
+   parsed 18 rows (running total: 22730)
+[376/1144] Limpopo                   2006-11-01 -> 2006-12-31
+   parsed 123 rows (running total: 22853)
+[377/1144] Olifants                  2006-11-01 -> 2006-12-31
+   parsed 54 rows (running total: 22907)
+[378/1144] Inkomati_Usuthu           2006-11-01 -> 2006-12-31
+   parsed 33 rows (running total: 22940)
+[379/1144] Orange                    2006-11-01 -> 2006-12-31
+   parsed 38 rows (running total: 22978)
+[380/1144] Vaal                      2006-11-01 -> 2006-12-31
+   parsed 13 rows (running total: 22991)
+[381/1144] Pongola_Mtamvuna          2006-11-01 -> 2006-12-31
+   parsed 121 rows (running total: 23112)
+[382/1144] Berg_Olifants             2006-11-01 -> 2006-12-31
+   parsed 54 rows (running total: 23166)
+[383/1144] Mzimvubu_Tsitsikamma      2006-11-01 -> 2006-12-31
+   parsed 49 rows (running total: 23215)
+[384/1144] Breede_Gouritz            2006-11-01 -> 2006-12-31
+   parsed 19 rows (running total: 23234)
+[385/1144] Limpopo                   2007-01-01 -> 2007-02-28
+   parsed 149 rows (running total: 23383)
+[386/1144] Olifants                  2007-01-01 -> 2007-02-28
+   parsed 40 rows (running total: 23423)
+[387/1144] Inkomati_Usuthu           2007-01-01 -> 2007-02-28
+   parsed 21 rows (running total: 23444)
+[388/1144] Orange                    2007-01-01 -> 2007-02-28
+   parsed 62 rows (running total: 23506)
+[389/1144] Vaal                      2007-01-01 -> 2007-02-28
+   parsed 33 rows (running total: 23539)
+[390/1144] Pongola_Mtamvuna          2007-01-01 -> 2007-02-28
+   parsed 114 rows (running total: 23653)
+[391/1144] Berg_Olifants             2007-01-01 -> 2007-02-28
+   parsed 35 rows (running total: 23688)
+[392/1144] Mzimvubu_Tsitsikamma      2007-01-01 -> 2007-02-28
+   parsed 59 rows (running total: 23747)
+[393/1144] Breede_Gouritz            2007-01-01 -> 2007-02-28
+   parsed 20 rows (running total: 23767)
+[394/1144] Limpopo                   2007-03-01 -> 2007-04-30
+   parsed 128 rows (running total: 23895)
+[395/1144] Olifants                  2007-03-01 -> 2007-04-30
+   parsed 47 rows (running total: 23942)
+[396/1144] Inkomati_Usuthu           2007-03-01 -> 2007-04-30
+   parsed 25 rows (running total: 23967)
+[397/1144] Orange                    2007-03-01 -> 2007-04-30
+   parsed 61 rows (running total: 24028)
+[398/1144] Vaal                      2007-03-01 -> 2007-04-30
+   parsed 31 rows (running total: 24059)
+[399/1144] Pongola_Mtamvuna          2007-03-01 -> 2007-04-30
+   parsed 113 rows (running total: 24172)
+[400/1144] Berg_Olifants             2007-03-01 -> 2007-04-30
+   parsed 41 rows (running total: 24213)
+[401/1144] Mzimvubu_Tsitsikamma      2007-03-01 -> 2007-04-30
+   parsed 59 rows (running total: 24272)
+[402/1144] Breede_Gouritz            2007-03-01 -> 2007-04-30
+   parsed 26 rows (running total: 24298)
+[403/1144] Limpopo                   2007-05-01 -> 2007-06-30
+   parsed 135 rows (running total: 24433)
+[404/1144] Olifants                  2007-05-01 -> 2007-06-30
+   parsed 38 rows (running total: 24471)
+[405/1144] Inkomati_Usuthu           2007-05-01 -> 2007-06-30
+   parsed 49 rows (running total: 24520)
+[406/1144] Orange                    2007-05-01 -> 2007-06-30
+   parsed 66 rows (running total: 24586)
+[407/1144] Vaal                      2007-05-01 -> 2007-06-30
+   parsed 17 rows (running total: 24603)
+[408/1144] Pongola_Mtamvuna          2007-05-01 -> 2007-06-30
+   parsed 53 rows (running total: 24656)
+[409/1144] Mzimvubu_Tsitsikamma      2007-05-01 -> 2007-06-30
+   parsed 51 rows (running total: 24707)
+[410/1144] Breede_Gouritz            2007-05-01 -> 2007-06-30
+   parsed 1 rows (running total: 24708)
+[411/1144] Limpopo                   2007-07-01 -> 2007-08-31
+   parsed 132 rows (running total: 24840)
+[412/1144] Olifants                  2007-07-01 -> 2007-08-31
+   parsed 58 rows (running total: 24898)
+[413/1144] Inkomati_Usuthu           2007-07-01 -> 2007-08-31
+   parsed 48 rows (running total: 24946)
+[414/1144] Orange                    2007-07-01 -> 2007-08-31
+   parsed 32 rows (running total: 24978)
+[415/1144] Vaal                      2007-07-01 -> 2007-08-31
+   parsed 31 rows (running total: 25009)
+[416/1144] Pongola_Mtamvuna          2007-07-01 -> 2007-08-31
+   parsed 104 rows (running total: 25113)
+[417/1144] Berg_Olifants             2007-07-01 -> 2007-08-31
+   parsed 32 rows (running total: 25145)
+[418/1144] Mzimvubu_Tsitsikamma      2007-07-01 -> 2007-08-31
+   parsed 48 rows (running total: 25193)
+[419/1144] Breede_Gouritz            2007-07-01 -> 2007-08-31
+   parsed 22 rows (running total: 25215)
+[420/1144] Limpopo                   2007-09-01 -> 2007-10-31
+   parsed 99 rows (running total: 25314)
+[421/1144] Olifants                  2007-09-01 -> 2007-10-31
+   parsed 57 rows (running total: 25371)
+[422/1144] Inkomati_Usuthu           2007-09-01 -> 2007-10-31
+   parsed 67 rows (running total: 25438)
+[423/1144] Orange                    2007-09-01 -> 2007-10-31
+   parsed 60 rows (running total: 25498)
+[424/1144] Vaal                      2007-09-01 -> 2007-10-31
+   parsed 31 rows (running total: 25529)
+[425/1144] Pongola_Mtamvuna          2007-09-01 -> 2007-10-31
+   parsed 107 rows (running total: 25636)
+[426/1144] Berg_Olifants             2007-09-01 -> 2007-10-31
+   parsed 53 rows (running total: 25689)
+[427/1144] Mzimvubu_Tsitsikamma      2007-09-01 -> 2007-10-31
+   parsed 47 rows (running total: 25736)
+[428/1144] Breede_Gouritz            2007-09-01 -> 2007-10-31
+   parsed 30 rows (running total: 25766)
+[429/1144] Limpopo                   2007-11-01 -> 2007-12-31
+   parsed 108 rows (running total: 25874)
+[430/1144] Olifants                  2007-11-01 -> 2007-12-31
+   parsed 55 rows (running total: 25929)
+[431/1144] Inkomati_Usuthu           2007-11-01 -> 2007-12-31
+   parsed 73 rows (running total: 26002)
+[432/1144] Orange                    2007-11-01 -> 2007-12-31
+   parsed 46 rows (running total: 26048)
+[433/1144] Vaal                      2007-11-01 -> 2007-12-31
+   parsed 29 rows (running total: 26077)
+[434/1144] Pongola_Mtamvuna          2007-11-01 -> 2007-12-31
+   parsed 91 rows (running total: 26168)
+[435/1144] Berg_Olifants             2007-11-01 -> 2007-12-31
+   parsed 45 rows (running total: 26213)
+[436/1144] Mzimvubu_Tsitsikamma      2007-11-01 -> 2007-12-31
+   parsed 32 rows (running total: 26245)
+[437/1144] Breede_Gouritz            2007-11-01 -> 2007-12-31
+   parsed 33 rows (running total: 26278)
+[438/1144] Limpopo                   2008-01-01 -> 2008-02-29
+   parsed 111 rows (running total: 26389)
+[439/1144] Olifants                  2008-01-01 -> 2008-02-29
+   parsed 36 rows (running total: 26425)
+[440/1144] Inkomati_Usuthu           2008-01-01 -> 2008-02-29
+   parsed 90 rows (running total: 26515)
+[441/1144] Orange                    2008-01-01 -> 2008-02-29
+   parsed 74 rows (running total: 26589)
+[442/1144] Vaal                      2008-01-01 -> 2008-02-29
+   parsed 38 rows (running total: 26627)
+[443/1144] Pongola_Mtamvuna          2008-01-01 -> 2008-02-29
+   parsed 57 rows (running total: 26684)
+[444/1144] Berg_Olifants             2008-01-01 -> 2008-02-29
+   parsed 42 rows (running total: 26726)
+[445/1144] Mzimvubu_Tsitsikamma      2008-01-01 -> 2008-02-29
+   parsed 38 rows (running total: 26764)
+[446/1144] Breede_Gouritz            2008-01-01 -> 2008-02-29
+   parsed 15 rows (running total: 26779)
+[447/1144] Limpopo                   2008-03-01 -> 2008-04-30
+   parsed 123 rows (running total: 26902)
+[448/1144] Olifants                  2008-03-01 -> 2008-04-30
+   parsed 46 rows (running total: 26948)
+[449/1144] Inkomati_Usuthu           2008-03-01 -> 2008-04-30
+   parsed 78 rows (running total: 27026)
+[450/1144] Orange                    2008-03-01 -> 2008-04-30
+   parsed 73 rows (running total: 27099)
+[451/1144] Vaal                      2008-03-01 -> 2008-04-30
+   parsed 31 rows (running total: 27130)
+[452/1144] Pongola_Mtamvuna          2008-03-01 -> 2008-04-30
+   parsed 100 rows (running total: 27230)
+[453/1144] Berg_Olifants             2008-03-01 -> 2008-04-30
+   parsed 58 rows (running total: 27288)
+[454/1144] Mzimvubu_Tsitsikamma      2008-03-01 -> 2008-04-30
+   parsed 36 rows (running total: 27324)
+[455/1144] Breede_Gouritz            2008-03-01 -> 2008-04-30
+   parsed 32 rows (running total: 27356)
+[456/1144] Limpopo                   2008-05-01 -> 2008-06-30
+   parsed 148 rows (running total: 27504)
+[457/1144] Olifants                  2008-05-01 -> 2008-06-30
+   parsed 46 rows (running total: 27550)
+[458/1144] Inkomati_Usuthu           2008-05-01 -> 2008-06-30
+   parsed 93 rows (running total: 27643)
+[459/1144] Orange                    2008-05-01 -> 2008-06-30
+   parsed 71 rows (running total: 27714)
+[460/1144] Vaal                      2008-05-01 -> 2008-06-30
+   parsed 39 rows (running total: 27753)
+[461/1144] Pongola_Mtamvuna          2008-05-01 -> 2008-06-30
+   parsed 92 rows (running total: 27845)
+[462/1144] Berg_Olifants             2008-05-01 -> 2008-06-30
+   parsed 66 rows (running total: 27911)
+[463/1144] Mzimvubu_Tsitsikamma      2008-05-01 -> 2008-06-30
+   parsed 43 rows (running total: 27954)
+[464/1144] Breede_Gouritz            2008-05-01 -> 2008-06-30
+   parsed 51 rows (running total: 28005)
+[465/1144] Limpopo                   2008-07-01 -> 2008-08-31
+   parsed 147 rows (running total: 28152)
+[466/1144] Olifants                  2008-07-01 -> 2008-08-31
+   parsed 46 rows (running total: 28198)
+[467/1144] Inkomati_Usuthu           2008-07-01 -> 2008-08-31
+   parsed 91 rows (running total: 28289)
+[468/1144] Orange                    2008-07-01 -> 2008-08-31
+   parsed 58 rows (running total: 28347)
+[469/1144] Vaal                      2008-07-01 -> 2008-08-31
+   parsed 33 rows (running total: 28380)
+[470/1144] Pongola_Mtamvuna          2008-07-01 -> 2008-08-31
+   parsed 101 rows (running total: 28481)
+[471/1144] Berg_Olifants             2008-07-01 -> 2008-08-31
+   parsed 80 rows (running total: 28561)
+[472/1144] Mzimvubu_Tsitsikamma      2008-07-01 -> 2008-08-31
+   parsed 30 rows (running total: 28591)
+[473/1144] Breede_Gouritz            2008-07-01 -> 2008-08-31
+   parsed 60 rows (running total: 28651)
+[474/1144] Limpopo                   2008-09-01 -> 2008-10-31
+   parsed 121 rows (running total: 28772)
+[475/1144] Olifants                  2008-09-01 -> 2008-10-31
+   parsed 55 rows (running total: 28827)
+[476/1144] Inkomati_Usuthu           2008-09-01 -> 2008-10-31
+   parsed 97 rows (running total: 28924)
+[477/1144] Orange                    2008-09-01 -> 2008-10-31
+   parsed 32 rows (running total: 28956)
+[478/1144] Vaal                      2008-09-01 -> 2008-10-31
+   parsed 41 rows (running total: 28997)
+[479/1144] Pongola_Mtamvuna          2008-09-01 -> 2008-10-31
+   parsed 102 rows (running total: 29099)
+[480/1144] Berg_Olifants             2008-09-01 -> 2008-10-31
+   parsed 99 rows (running total: 29198)
+[481/1144] Mzimvubu_Tsitsikamma      2008-09-01 -> 2008-10-31
+   parsed 30 rows (running total: 29228)
+[482/1144] Breede_Gouritz            2008-09-01 -> 2008-10-31
+   parsed 76 rows (running total: 29304)
+[483/1144] Limpopo                   2008-11-01 -> 2008-12-31
+   parsed 132 rows (running total: 29436)
+[484/1144] Olifants                  2008-11-01 -> 2008-12-31
+   parsed 38 rows (running total: 29474)
+[485/1144] Inkomati_Usuthu           2008-11-01 -> 2008-12-31
+   parsed 54 rows (running total: 29528)
+[486/1144] Orange                    2008-11-01 -> 2008-12-31
+   parsed 42 rows (running total: 29570)
+[487/1144] Vaal                      2008-11-01 -> 2008-12-31
+   parsed 34 rows (running total: 29604)
+[488/1144] Pongola_Mtamvuna          2008-11-01 -> 2008-12-31
+   parsed 113 rows (running total: 29717)
+[489/1144] Berg_Olifants             2008-11-01 -> 2008-12-31
+   parsed 94 rows (running total: 29811)
+[490/1144] Mzimvubu_Tsitsikamma      2008-11-01 -> 2008-12-31
+   parsed 37 rows (running total: 29848)
+[491/1144] Breede_Gouritz            2008-11-01 -> 2008-12-31
+   parsed 75 rows (running total: 29923)
+[492/1144] Limpopo                   2009-01-01 -> 2009-02-28
+   parsed 165 rows (running total: 30088)
+[493/1144] Olifants                  2009-01-01 -> 2009-02-28
+   parsed 54 rows (running total: 30142)
+[494/1144] Inkomati_Usuthu           2009-01-01 -> 2009-02-28
+   parsed 52 rows (running total: 30194)
+[495/1144] Orange                    2009-01-01 -> 2009-02-28
+   parsed 64 rows (running total: 30258)
+[496/1144] Vaal                      2009-01-01 -> 2009-02-28
+   parsed 36 rows (running total: 30294)
+[497/1144] Pongola_Mtamvuna          2009-01-01 -> 2009-02-28
+   parsed 97 rows (running total: 30391)
+[498/1144] Berg_Olifants             2009-01-01 -> 2009-02-28
+   parsed 84 rows (running total: 30475)
+[499/1144] Mzimvubu_Tsitsikamma      2009-01-01 -> 2009-02-28
+   parsed 35 rows (running total: 30510)
+[500/1144] Breede_Gouritz            2009-01-01 -> 2009-02-28
+   parsed 64 rows (running total: 30574)
+[501/1144] Limpopo                   2009-03-01 -> 2009-04-30
+   parsed 156 rows (running total: 30730)
+[502/1144] Olifants                  2009-03-01 -> 2009-04-30
+   parsed 43 rows (running total: 30773)
+[503/1144] Inkomati_Usuthu           2009-03-01 -> 2009-04-30
+   parsed 72 rows (running total: 30845)
+[504/1144] Orange                    2009-03-01 -> 2009-04-30
+   parsed 24 rows (running total: 30869)
+[505/1144] Vaal                      2009-03-01 -> 2009-04-30
+   parsed 43 rows (running total: 30912)
+[506/1144] Pongola_Mtamvuna          2009-03-01 -> 2009-04-30
+   parsed 106 rows (running total: 31018)
+[507/1144] Berg_Olifants             2009-03-01 -> 2009-04-30
+   parsed 84 rows (running total: 31102)
+[508/1144] Mzimvubu_Tsitsikamma      2009-03-01 -> 2009-04-30
+   parsed 4 rows (running total: 31106)
+[509/1144] Breede_Gouritz            2009-03-01 -> 2009-04-30
+   parsed 77 rows (running total: 31183)
+[510/1144] Limpopo                   2009-05-01 -> 2009-06-30
+   parsed 47 rows (running total: 31230)
+[511/1144] Olifants                  2009-05-01 -> 2009-06-30
+   parsed 60 rows (running total: 31290)
+[512/1144] Inkomati_Usuthu           2009-05-01 -> 2009-06-30
+   parsed 49 rows (running total: 31339)
+[513/1144] Orange                    2009-05-01 -> 2009-06-30
+   parsed 26 rows (running total: 31365)
+[514/1144] Vaal                      2009-05-01 -> 2009-06-30
+   parsed 28 rows (running total: 31393)
+[515/1144] Pongola_Mtamvuna          2009-05-01 -> 2009-06-30
+   parsed 97 rows (running total: 31490)
+[516/1144] Berg_Olifants             2009-05-01 -> 2009-06-30
+   parsed 74 rows (running total: 31564)
+[517/1144] Mzimvubu_Tsitsikamma      2009-05-01 -> 2009-06-30
+   parsed 14 rows (running total: 31578)
+[518/1144] Breede_Gouritz            2009-05-01 -> 2009-06-30
+   parsed 77 rows (running total: 31655)
+[519/1144] Limpopo                   2009-07-01 -> 2009-08-31
+   parsed 43 rows (running total: 31698)
+[520/1144] Olifants                  2009-07-01 -> 2009-08-31
+   parsed 59 rows (running total: 31757)
+[521/1144] Inkomati_Usuthu           2009-07-01 -> 2009-08-31
+   parsed 47 rows (running total: 31804)
+[522/1144] Orange                    2009-07-01 -> 2009-08-31
+   parsed 26 rows (running total: 31830)
+[523/1144] Vaal                      2009-07-01 -> 2009-08-31
+   parsed 24 rows (running total: 31854)
+[524/1144] Pongola_Mtamvuna          2009-07-01 -> 2009-08-31
+   parsed 66 rows (running total: 31920)
+[525/1144] Berg_Olifants             2009-07-01 -> 2009-08-31
+   parsed 76 rows (running total: 31996)
+[526/1144] Mzimvubu_Tsitsikamma      2009-07-01 -> 2009-08-31
+   parsed 26 rows (running total: 32022)
+[527/1144] Breede_Gouritz            2009-07-01 -> 2009-08-31
+   parsed 73 rows (running total: 32095)
+[528/1144] Limpopo                   2009-09-01 -> 2009-10-31
+   parsed 67 rows (running total: 32162)
+[529/1144] Olifants                  2009-09-01 -> 2009-10-31
+   parsed 33 rows (running total: 32195)
+[530/1144] Inkomati_Usuthu           2009-09-01 -> 2009-10-31
+   parsed 43 rows (running total: 32238)
+[531/1144] Orange                    2009-09-01 -> 2009-10-31
+   parsed 26 rows (running total: 32264)
+[532/1144] Vaal                      2009-09-01 -> 2009-10-31
+   parsed 43 rows (running total: 32307)
+[533/1144] Pongola_Mtamvuna          2009-09-01 -> 2009-10-31
+   parsed 40 rows (running total: 32347)
+[534/1144] Berg_Olifants             2009-09-01 -> 2009-10-31
+   parsed 70 rows (running total: 32417)
+[535/1144] Mzimvubu_Tsitsikamma      2009-09-01 -> 2009-10-31
+   parsed 15 rows (running total: 32432)
+[536/1144] Breede_Gouritz            2009-09-01 -> 2009-10-31
+   parsed 73 rows (running total: 32505)
+[537/1144] Limpopo                   2009-11-01 -> 2009-12-31
+   parsed 147 rows (running total: 32652)
+[538/1144] Olifants                  2009-11-01 -> 2009-12-31
+   parsed 34 rows (running total: 32686)
+[539/1144] Inkomati_Usuthu           2009-11-01 -> 2009-12-31
+   parsed 31 rows (running total: 32717)
+[540/1144] Vaal                      2009-11-01 -> 2009-12-31
+   parsed 43 rows (running total: 32760)
+[541/1144] Pongola_Mtamvuna          2009-11-01 -> 2009-12-31
+   parsed 40 rows (running total: 32800)
+[542/1144] Berg_Olifants             2009-11-01 -> 2009-12-31
+   parsed 59 rows (running total: 32859)
+[543/1144] Mzimvubu_Tsitsikamma      2009-11-01 -> 2009-12-31
+   parsed 29 rows (running total: 32888)
+[544/1144] Breede_Gouritz            2009-11-01 -> 2009-12-31
+   parsed 75 rows (running total: 32963)
+[545/1144] Limpopo                   2010-01-01 -> 2010-02-28
+   parsed 132 rows (running total: 33095)
+[546/1144] Olifants                  2010-01-01 -> 2010-02-28
+   parsed 25 rows (running total: 33120)
+[547/1144] Inkomati_Usuthu           2010-01-01 -> 2010-02-28
+   parsed 36 rows (running total: 33156)
+[548/1144] Orange                    2010-01-01 -> 2010-02-28
+   parsed 13 rows (running total: 33169)
+[549/1144] Vaal                      2010-01-01 -> 2010-02-28
+   parsed 38 rows (running total: 33207)
+[550/1144] Pongola_Mtamvuna          2010-01-01 -> 2010-02-28
+   parsed 41 rows (running total: 33248)
+[551/1144] Berg_Olifants             2010-01-01 -> 2010-02-28
+   parsed 72 rows (running total: 33320)
+[552/1144] Mzimvubu_Tsitsikamma      2010-01-01 -> 2010-02-28
+   parsed 13 rows (running total: 33333)
+[553/1144] Breede_Gouritz            2010-01-01 -> 2010-02-28
+   parsed 57 rows (running total: 33390)
+[554/1144] Limpopo                   2010-03-01 -> 2010-04-30
+   parsed 110 rows (running total: 33500)
+[555/1144] Olifants                  2010-03-01 -> 2010-04-30
+   parsed 26 rows (running total: 33526)
+[556/1144] Inkomati_Usuthu           2010-03-01 -> 2010-04-30
+   parsed 20 rows (running total: 33546)
+[557/1144] Orange                    2010-03-01 -> 2010-04-30
+   parsed 26 rows (running total: 33572)
+[558/1144] Vaal                      2010-03-01 -> 2010-04-30
+   parsed 32 rows (running total: 33604)
+[559/1144] Pongola_Mtamvuna          2010-03-01 -> 2010-04-30
+   parsed 40 rows (running total: 33644)
+[560/1144] Berg_Olifants             2010-03-01 -> 2010-04-30
+   parsed 81 rows (running total: 33725)
+[561/1144] Mzimvubu_Tsitsikamma      2010-03-01 -> 2010-04-30
+   parsed 8 rows (running total: 33733)
+[562/1144] Breede_Gouritz            2010-03-01 -> 2010-04-30
+   parsed 61 rows (running total: 33794)
+[563/1144] Limpopo                   2010-05-01 -> 2010-06-30
+   parsed 121 rows (running total: 33915)
+[564/1144] Olifants                  2010-05-01 -> 2010-06-30
+   parsed 29 rows (running total: 33944)
+[565/1144] Inkomati_Usuthu           2010-05-01 -> 2010-06-30
+   parsed 56 rows (running total: 34000)
+[566/1144] Orange                    2010-05-01 -> 2010-06-30
+   parsed 26 rows (running total: 34026)
+[567/1144] Vaal                      2010-05-01 -> 2010-06-30
+   parsed 25 rows (running total: 34051)
+[568/1144] Pongola_Mtamvuna          2010-05-01 -> 2010-06-30
+   parsed 76 rows (running total: 34127)
+[569/1144] Berg_Olifants             2010-05-01 -> 2010-06-30
+   parsed 102 rows (running total: 34229)
+[570/1144] Mzimvubu_Tsitsikamma      2010-05-01 -> 2010-06-30
+   parsed 12 rows (running total: 34241)
+[571/1144] Breede_Gouritz            2010-05-01 -> 2010-06-30
+   parsed 59 rows (running total: 34300)
+[572/1144] Limpopo                   2010-07-01 -> 2010-08-31
+   parsed 112 rows (running total: 34412)
+[573/1144] Olifants                  2010-07-01 -> 2010-08-31
+   parsed 12 rows (running total: 34424)
+[574/1144] Inkomati_Usuthu           2010-07-01 -> 2010-08-31
+   parsed 28 rows (running total: 34452)
+[575/1144] Orange                    2010-07-01 -> 2010-08-31
+   parsed 26 rows (running total: 34478)
+[576/1144] Vaal                      2010-07-01 -> 2010-08-31
+   parsed 28 rows (running total: 34506)
+[577/1144] Pongola_Mtamvuna          2010-07-01 -> 2010-08-31
+   parsed 59 rows (running total: 34565)
+[578/1144] Berg_Olifants             2010-07-01 -> 2010-08-31
+   parsed 80 rows (running total: 34645)
+[579/1144] Mzimvubu_Tsitsikamma      2010-07-01 -> 2010-08-31
+   parsed 20 rows (running total: 34665)
+[580/1144] Breede_Gouritz            2010-07-01 -> 2010-08-31
+   parsed 135 rows (running total: 34800)
+[581/1144] Limpopo                   2010-09-01 -> 2010-10-31
+   parsed 97 rows (running total: 34897)
+[582/1144] Olifants                  2010-09-01 -> 2010-10-31
+   parsed 8 rows (running total: 34905)
+[583/1144] Inkomati_Usuthu           2010-09-01 -> 2010-10-31
+   parsed 49 rows (running total: 34954)
+[584/1144] Orange                    2010-09-01 -> 2010-10-31
+   parsed 27 rows (running total: 34981)
+[585/1144] Vaal                      2010-09-01 -> 2010-10-31
+   parsed 32 rows (running total: 35013)
+[586/1144] Pongola_Mtamvuna          2010-09-01 -> 2010-10-31
+   parsed 62 rows (running total: 35075)
+[587/1144] Berg_Olifants             2010-09-01 -> 2010-10-31
+   parsed 70 rows (running total: 35145)
+[588/1144] Mzimvubu_Tsitsikamma      2010-09-01 -> 2010-10-31
+   parsed 6 rows (running total: 35151)
+[589/1144] Breede_Gouritz            2010-09-01 -> 2010-10-31
+   parsed 56 rows (running total: 35207)
+[590/1144] Limpopo                   2010-11-01 -> 2010-12-31
+   parsed 118 rows (running total: 35325)
+[591/1144] Olifants                  2010-11-01 -> 2010-12-31
+   parsed 8 rows (running total: 35333)
+[592/1144] Inkomati_Usuthu           2010-11-01 -> 2010-12-31
+   parsed 49 rows (running total: 35382)
+[593/1144] Orange                    2010-11-01 -> 2010-12-31
+   parsed 44 rows (running total: 35426)
+[594/1144] Vaal                      2010-11-01 -> 2010-12-31
+   parsed 39 rows (running total: 35465)
+[595/1144] Pongola_Mtamvuna          2010-11-01 -> 2010-12-31
+   parsed 75 rows (running total: 35540)
+[596/1144] Berg_Olifants             2010-11-01 -> 2010-12-31
+   parsed 102 rows (running total: 35642)
+[597/1144] Mzimvubu_Tsitsikamma      2010-11-01 -> 2010-12-31
+   parsed 6 rows (running total: 35648)
+[598/1144] Breede_Gouritz            2010-11-01 -> 2010-12-31
+   parsed 39 rows (running total: 35687)
+[599/1144] Limpopo                   2011-01-01 -> 2011-02-28
+   parsed 116 rows (running total: 35803)
+[600/1144] Olifants                  2011-01-01 -> 2011-02-28
+   parsed 12 rows (running total: 35815)
+[601/1144] Inkomati_Usuthu           2011-01-01 -> 2011-02-28
+   parsed 49 rows (running total: 35864)
+[602/1144] Orange                    2011-01-01 -> 2011-02-28
+   parsed 32 rows (running total: 35896)
+[603/1144] Vaal                      2011-01-01 -> 2011-02-28
+   parsed 44 rows (running total: 35940)
+[604/1144] Pongola_Mtamvuna          2011-01-01 -> 2011-02-28
+   parsed 51 rows (running total: 35991)
+[605/1144] Berg_Olifants             2011-01-01 -> 2011-02-28
+   parsed 63 rows (running total: 36054)
+[606/1144] Mzimvubu_Tsitsikamma      2011-01-01 -> 2011-02-28
+   parsed 13 rows (running total: 36067)
+[607/1144] Breede_Gouritz            2011-01-01 -> 2011-02-28
+   parsed 57 rows (running total: 36124)
+[608/1144] Limpopo                   2011-03-01 -> 2011-04-30
+   parsed 107 rows (running total: 36231)
+[609/1144] Olifants                  2011-03-01 -> 2011-04-30
+   parsed 31 rows (running total: 36262)
+[610/1144] Inkomati_Usuthu           2011-03-01 -> 2011-04-30
+   parsed 30 rows (running total: 36292)
+[611/1144] Orange                    2011-03-01 -> 2011-04-30
+   parsed 20 rows (running total: 36312)
+[612/1144] Vaal                      2011-03-01 -> 2011-04-30
+   parsed 52 rows (running total: 36364)
+[613/1144] Pongola_Mtamvuna          2011-03-01 -> 2011-04-30
+   parsed 59 rows (running total: 36423)
+[614/1144] Berg_Olifants             2011-03-01 -> 2011-04-30
+   parsed 79 rows (running total: 36502)
+[615/1144] Mzimvubu_Tsitsikamma      2011-03-01 -> 2011-04-30
+   parsed 10 rows (running total: 36512)
+[616/1144] Breede_Gouritz            2011-03-01 -> 2011-04-30
+   parsed 37 rows (running total: 36549)
+[617/1144] Limpopo                   2011-05-01 -> 2011-06-30
+   parsed 170 rows (running total: 36719)
+[618/1144] Olifants                  2011-05-01 -> 2011-06-30
+   parsed 28 rows (running total: 36747)
+[619/1144] Inkomati_Usuthu           2011-05-01 -> 2011-06-30
+   parsed 38 rows (running total: 36785)
+[620/1144] Vaal                      2011-05-01 -> 2011-06-30
+   parsed 46 rows (running total: 36831)
+[621/1144] Pongola_Mtamvuna          2011-05-01 -> 2011-06-30
+   parsed 61 rows (running total: 36892)
+[622/1144] Berg_Olifants             2011-05-01 -> 2011-06-30
+   parsed 77 rows (running total: 36969)
+[623/1144] Mzimvubu_Tsitsikamma      2011-05-01 -> 2011-06-30
+   parsed 22 rows (running total: 36991)
+[624/1144] Breede_Gouritz            2011-05-01 -> 2011-06-30
+   parsed 47 rows (running total: 37038)
+[625/1144] Limpopo                   2011-07-01 -> 2011-08-31
+   parsed 121 rows (running total: 37159)
+[626/1144] Olifants                  2011-07-01 -> 2011-08-31
+   parsed 27 rows (running total: 37186)
+[627/1144] Inkomati_Usuthu           2011-07-01 -> 2011-08-31
+   parsed 46 rows (running total: 37232)
+[628/1144] Orange                    2011-07-01 -> 2011-08-31
+   parsed 14 rows (running total: 37246)
+[629/1144] Vaal                      2011-07-01 -> 2011-08-31
+   parsed 42 rows (running total: 37288)
+[630/1144] Pongola_Mtamvuna          2011-07-01 -> 2011-08-31
+   parsed 51 rows (running total: 37339)
+[631/1144] Berg_Olifants             2011-07-01 -> 2011-08-31
+   parsed 79 rows (running total: 37418)
+[632/1144] Mzimvubu_Tsitsikamma      2011-07-01 -> 2011-08-31
+   parsed 18 rows (running total: 37436)
+[633/1144] Breede_Gouritz            2011-07-01 -> 2011-08-31
+   parsed 55 rows (running total: 37491)
+[634/1144] Limpopo                   2011-09-01 -> 2011-10-31
+   parsed 170 rows (running total: 37661)
+[635/1144] Olifants                  2011-09-01 -> 2011-10-31
+   parsed 32 rows (running total: 37693)
+[636/1144] Inkomati_Usuthu           2011-09-01 -> 2011-10-31
+   parsed 35 rows (running total: 37728)
+[637/1144] Orange                    2011-09-01 -> 2011-10-31
+   parsed 31 rows (running total: 37759)
+[638/1144] Vaal                      2011-09-01 -> 2011-10-31
+   parsed 46 rows (running total: 37805)
+[639/1144] Pongola_Mtamvuna          2011-09-01 -> 2011-10-31
+   parsed 47 rows (running total: 37852)
+[640/1144] Berg_Olifants             2011-09-01 -> 2011-10-31
+   parsed 73 rows (running total: 37925)
+[641/1144] Mzimvubu_Tsitsikamma      2011-09-01 -> 2011-10-31
+   parsed 22 rows (running total: 37947)
+[642/1144] Breede_Gouritz            2011-09-01 -> 2011-10-31
+   parsed 81 rows (running total: 38028)
+[643/1144] Limpopo                   2011-11-01 -> 2011-12-31
+   parsed 109 rows (running total: 38137)
+[644/1144] Olifants                  2011-11-01 -> 2011-12-31
+   parsed 15 rows (running total: 38152)
+[645/1144] Inkomati_Usuthu           2011-11-01 -> 2011-12-31
+   parsed 40 rows (running total: 38192)
+[646/1144] Orange                    2011-11-01 -> 2011-12-31
+   parsed 16 rows (running total: 38208)
+[647/1144] Vaal                      2011-11-01 -> 2011-12-31
+   parsed 36 rows (running total: 38244)
+[648/1144] Pongola_Mtamvuna          2011-11-01 -> 2011-12-31
+   parsed 71 rows (running total: 38315)
+[649/1144] Berg_Olifants             2011-11-01 -> 2011-12-31
+   parsed 72 rows (running total: 38387)
+[650/1144] Mzimvubu_Tsitsikamma      2011-11-01 -> 2011-12-31
+   parsed 14 rows (running total: 38401)
+[651/1144] Breede_Gouritz            2011-11-01 -> 2011-12-31
+   parsed 58 rows (running total: 38459)
+[652/1144] Limpopo                   2012-01-01 -> 2012-02-29
+   parsed 131 rows (running total: 38590)
+[653/1144] Olifants                  2012-01-01 -> 2012-02-29
+   parsed 28 rows (running total: 38618)
+[654/1144] Inkomati_Usuthu           2012-01-01 -> 2012-02-29
+   parsed 35 rows (running total: 38653)
+[655/1144] Orange                    2012-01-01 -> 2012-02-29
+   parsed 24 rows (running total: 38677)
+[656/1144] Vaal                      2012-01-01 -> 2012-02-29
+   parsed 58 rows (running total: 38735)
+[657/1144] Pongola_Mtamvuna          2012-01-01 -> 2012-02-29
+   parsed 106 rows (running total: 38841)
+[658/1144] Berg_Olifants             2012-01-01 -> 2012-02-29
+   parsed 70 rows (running total: 38911)
+[659/1144] Mzimvubu_Tsitsikamma      2012-01-01 -> 2012-02-29
+   parsed 25 rows (running total: 38936)
+[660/1144] Breede_Gouritz            2012-01-01 -> 2012-02-29
+   parsed 45 rows (running total: 38981)
+[661/1144] Limpopo                   2012-03-01 -> 2012-04-30
+   parsed 103 rows (running total: 39084)
+[662/1144] Olifants                  2012-03-01 -> 2012-04-30
+   parsed 15 rows (running total: 39099)
+[663/1144] Inkomati_Usuthu           2012-03-01 -> 2012-04-30
+   parsed 23 rows (running total: 39122)
+[664/1144] Orange                    2012-03-01 -> 2012-04-30
+   parsed 32 rows (running total: 39154)
+[665/1144] Vaal                      2012-03-01 -> 2012-04-30
+   parsed 51 rows (running total: 39205)
+[666/1144] Pongola_Mtamvuna          2012-03-01 -> 2012-04-30
+   parsed 103 rows (running total: 39308)
+[667/1144] Berg_Olifants             2012-03-01 -> 2012-04-30
+   parsed 74 rows (running total: 39382)
+[668/1144] Mzimvubu_Tsitsikamma      2012-03-01 -> 2012-04-30
+   parsed 27 rows (running total: 39409)
+[669/1144] Breede_Gouritz            2012-03-01 -> 2012-04-30
+   parsed 47 rows (running total: 39456)
+[670/1144] Limpopo                   2012-05-01 -> 2012-06-30
+   parsed 141 rows (running total: 39597)
+[671/1144] Olifants                  2012-05-01 -> 2012-06-30
+   parsed 31 rows (running total: 39628)
+[672/1144] Inkomati_Usuthu           2012-05-01 -> 2012-06-30
+   parsed 33 rows (running total: 39661)
+[673/1144] Orange                    2012-05-01 -> 2012-06-30
+   parsed 32 rows (running total: 39693)
+[674/1144] Vaal                      2012-05-01 -> 2012-06-30
+   parsed 48 rows (running total: 39741)
+[675/1144] Pongola_Mtamvuna          2012-05-01 -> 2012-06-30
+   parsed 105 rows (running total: 39846)
+[676/1144] Berg_Olifants             2012-05-01 -> 2012-06-30
+   parsed 76 rows (running total: 39922)
+[677/1144] Mzimvubu_Tsitsikamma      2012-05-01 -> 2012-06-30
+   parsed 28 rows (running total: 39950)
+[678/1144] Breede_Gouritz            2012-05-01 -> 2012-06-30
+   parsed 59 rows (running total: 40009)
+[679/1144] Limpopo                   2012-07-01 -> 2012-08-31
+   parsed 109 rows (running total: 40118)
+[680/1144] Olifants                  2012-07-01 -> 2012-08-31
+   parsed 22 rows (running total: 40140)
+[681/1144] Inkomati_Usuthu           2012-07-01 -> 2012-08-31
+   parsed 5 rows (running total: 40145)
+[682/1144] Orange                    2012-07-01 -> 2012-08-31
+   parsed 32 rows (running total: 40177)
+[683/1144] Vaal                      2012-07-01 -> 2012-08-31
+   parsed 54 rows (running total: 40231)
+[684/1144] Pongola_Mtamvuna          2012-07-01 -> 2012-08-31
+   parsed 86 rows (running total: 40317)
+[685/1144] Berg_Olifants             2012-07-01 -> 2012-08-31
+   parsed 67 rows (running total: 40384)
+[686/1144] Mzimvubu_Tsitsikamma      2012-07-01 -> 2012-08-31
+   parsed 28 rows (running total: 40412)
+[687/1144] Breede_Gouritz            2012-07-01 -> 2012-08-31
+   parsed 82 rows (running total: 40494)
+[688/1144] Limpopo                   2012-09-01 -> 2012-10-31
+   parsed 131 rows (running total: 40625)
+[689/1144] Olifants                  2012-09-01 -> 2012-10-31
+   parsed 20 rows (running total: 40645)
+[690/1144] Inkomati_Usuthu           2012-09-01 -> 2012-10-31
+   parsed 6 rows (running total: 40651)
+[691/1144] Orange                    2012-09-01 -> 2012-10-31
+   parsed 15 rows (running total: 40666)
+[692/1144] Vaal                      2012-09-01 -> 2012-10-31
+   parsed 48 rows (running total: 40714)
+[693/1144] Pongola_Mtamvuna          2012-09-01 -> 2012-10-31
+   parsed 106 rows (running total: 40820)
+[694/1144] Berg_Olifants             2012-09-01 -> 2012-10-31
+   parsed 79 rows (running total: 40899)
+[695/1144] Mzimvubu_Tsitsikamma      2012-09-01 -> 2012-10-31
+   parsed 9 rows (running total: 40908)
+[696/1144] Breede_Gouritz            2012-09-01 -> 2012-10-31
+   parsed 62 rows (running total: 40970)
+[697/1144] Limpopo                   2012-11-01 -> 2012-12-31
+   parsed 90 rows (running total: 41060)
+[698/1144] Olifants                  2012-11-01 -> 2012-12-31
+   parsed 20 rows (running total: 41080)
+[699/1144] Inkomati_Usuthu           2012-11-01 -> 2012-12-31
+   parsed 10 rows (running total: 41090)
+[700/1144] Orange                    2012-11-01 -> 2012-12-31
+   parsed 15 rows (running total: 41105)
+[701/1144] Vaal                      2012-11-01 -> 2012-12-31
+   parsed 52 rows (running total: 41157)
+[702/1144] Pongola_Mtamvuna          2012-11-01 -> 2012-12-31
+   parsed 55 rows (running total: 41212)
+[703/1144] Berg_Olifants             2012-11-01 -> 2012-12-31
+   parsed 83 rows (running total: 41295)
+[704/1144] Mzimvubu_Tsitsikamma      2012-11-01 -> 2012-12-31
+   parsed 6 rows (running total: 41301)
+[705/1144] Breede_Gouritz            2012-11-01 -> 2012-12-31
+   parsed 51 rows (running total: 41352)
+[706/1144] Limpopo                   2013-01-01 -> 2013-02-28
+   parsed 121 rows (running total: 41473)
+[707/1144] Olifants                  2013-01-01 -> 2013-02-28
+   parsed 31 rows (running total: 41504)
+[708/1144] Inkomati_Usuthu           2013-01-01 -> 2013-02-28
+   parsed 7 rows (running total: 41511)
+[709/1144] Vaal                      2013-01-01 -> 2013-02-28
+   parsed 34 rows (running total: 41545)
+[710/1144] Pongola_Mtamvuna          2013-01-01 -> 2013-02-28
+   parsed 177 rows (running total: 41722)
+[711/1144] Berg_Olifants             2013-01-01 -> 2013-02-28
+   parsed 76 rows (running total: 41798)
+[712/1144] Mzimvubu_Tsitsikamma      2013-01-01 -> 2013-02-28
+   parsed 6 rows (running total: 41804)
+[713/1144] Breede_Gouritz            2013-01-01 -> 2013-02-28
+   parsed 71 rows (running total: 41875)
+[714/1144] Limpopo                   2013-03-01 -> 2013-04-30
+   parsed 107 rows (running total: 41982)
+[715/1144] Olifants                  2013-03-01 -> 2013-04-30
+   parsed 31 rows (running total: 42013)
+[716/1144] Inkomati_Usuthu           2013-03-01 -> 2013-04-30
+   parsed 8 rows (running total: 42021)
+[717/1144] Orange                    2013-03-01 -> 2013-04-30
+   parsed 16 rows (running total: 42037)
+[718/1144] Vaal                      2013-03-01 -> 2013-04-30
+   parsed 62 rows (running total: 42099)
+[719/1144] Pongola_Mtamvuna          2013-03-01 -> 2013-04-30
+   parsed 162 rows (running total: 42261)
+[720/1144] Berg_Olifants             2013-03-01 -> 2013-04-30
+   parsed 87 rows (running total: 42348)
+[721/1144] Mzimvubu_Tsitsikamma      2013-03-01 -> 2013-04-30
+   parsed 4 rows (running total: 42352)
+[722/1144] Breede_Gouritz            2013-03-01 -> 2013-04-30
+   parsed 62 rows (running total: 42414)
+[723/1144] Limpopo                   2013-05-01 -> 2013-06-30
+   parsed 126 rows (running total: 42540)
+[724/1144] Olifants                  2013-05-01 -> 2013-06-30
+   parsed 32 rows (running total: 42572)
+[725/1144] Inkomati_Usuthu           2013-05-01 -> 2013-06-30
+   parsed 16 rows (running total: 42588)
+[726/1144] Vaal                      2013-05-01 -> 2013-06-30
+   parsed 52 rows (running total: 42640)
+[727/1144] Pongola_Mtamvuna          2013-05-01 -> 2013-06-30
+   parsed 154 rows (running total: 42794)
+[728/1144] Berg_Olifants             2013-05-01 -> 2013-06-30
+   parsed 51 rows (running total: 42845)
+[729/1144] Mzimvubu_Tsitsikamma      2013-05-01 -> 2013-06-30
+   parsed 8 rows (running total: 42853)
+[730/1144] Breede_Gouritz            2013-05-01 -> 2013-06-30
+   parsed 75 rows (running total: 42928)
+[731/1144] Limpopo                   2013-07-01 -> 2013-08-31
+   parsed 124 rows (running total: 43052)
+[732/1144] Olifants                  2013-07-01 -> 2013-08-31
+   parsed 31 rows (running total: 43083)
+[733/1144] Inkomati_Usuthu           2013-07-01 -> 2013-08-31
+   parsed 10 rows (running total: 43093)
+[734/1144] Vaal                      2013-07-01 -> 2013-08-31
+   parsed 56 rows (running total: 43149)
+[735/1144] Pongola_Mtamvuna          2013-07-01 -> 2013-08-31
+   parsed 158 rows (running total: 43307)
+[736/1144] Berg_Olifants             2013-07-01 -> 2013-08-31
+   parsed 18 rows (running total: 43325)
+[737/1144] Mzimvubu_Tsitsikamma      2013-07-01 -> 2013-08-31
+   parsed 4 rows (running total: 43329)
+[738/1144] Breede_Gouritz            2013-07-01 -> 2013-08-31
+   parsed 33 rows (running total: 43362)
+[739/1144] Limpopo                   2013-09-01 -> 2013-10-31
+   parsed 117 rows (running total: 43479)
+[740/1144] Olifants                  2013-09-01 -> 2013-10-31
+   parsed 35 rows (running total: 43514)
+[741/1144] Inkomati_Usuthu           2013-09-01 -> 2013-10-31
+   parsed 7 rows (running total: 43521)
+[742/1144] Vaal                      2013-09-01 -> 2013-10-31
+   parsed 24 rows (running total: 43545)
+[743/1144] Pongola_Mtamvuna          2013-09-01 -> 2013-10-31
+   parsed 157 rows (running total: 43702)
+[744/1144] Berg_Olifants             2013-09-01 -> 2013-10-31
+   parsed 3 rows (running total: 43705)
+[745/1144] Breede_Gouritz            2013-09-01 -> 2013-10-31
+   parsed 4 rows (running total: 43709)
+[746/1144] Limpopo                   2013-11-01 -> 2013-12-31
+   parsed 97 rows (running total: 43806)
+[747/1144] Olifants                  2013-11-01 -> 2013-12-31
+   parsed 33 rows (running total: 43839)
+[748/1144] Inkomati_Usuthu           2013-11-01 -> 2013-12-31
+   parsed 11 rows (running total: 43850)
+[749/1144] Vaal                      2013-11-01 -> 2013-12-31
+   parsed 28 rows (running total: 43878)
+[750/1144] Pongola_Mtamvuna          2013-11-01 -> 2013-12-31
+   parsed 100 rows (running total: 43978)
+[751/1144] Breede_Gouritz            2013-11-01 -> 2013-12-31
+   parsed 1 rows (running total: 43979)
+[752/1144] Limpopo                   2014-01-01 -> 2014-02-28
+   parsed 114 rows (running total: 44093)
+[753/1144] Olifants                  2014-01-01 -> 2014-02-28
+   parsed 36 rows (running total: 44129)
+[754/1144] Inkomati_Usuthu           2014-01-01 -> 2014-02-28
+   parsed 5 rows (running total: 44134)
+[755/1144] Vaal                      2014-01-01 -> 2014-02-28
+   parsed 16 rows (running total: 44150)
+[756/1144] Pongola_Mtamvuna          2014-01-01 -> 2014-02-28
+   parsed 95 rows (running total: 44245)
+[757/1144] Berg_Olifants             2014-01-01 -> 2014-02-28
+   parsed 4 rows (running total: 44249)
+[758/1144] Breede_Gouritz            2014-01-01 -> 2014-02-28
+   parsed 5 rows (running total: 44254)
+[759/1144] Limpopo                   2014-03-01 -> 2014-04-30
+   parsed 126 rows (running total: 44380)
+[760/1144] Olifants                  2014-03-01 -> 2014-04-30
+   parsed 39 rows (running total: 44419)
+[761/1144] Inkomati_Usuthu           2014-03-01 -> 2014-04-30
+   parsed 4 rows (running total: 44423)
+[762/1144] Orange                    2014-03-01 -> 2014-04-30
+   parsed 1 rows (running total: 44424)
+[763/1144] Vaal                      2014-03-01 -> 2014-04-30
+   parsed 15 rows (running total: 44439)
+[764/1144] Pongola_Mtamvuna          2014-03-01 -> 2014-04-30
+   parsed 104 rows (running total: 44543)
+[765/1144] Mzimvubu_Tsitsikamma      2014-03-01 -> 2014-04-30
+   parsed 1 rows (running total: 44544)
+[766/1144] Breede_Gouritz            2014-03-01 -> 2014-04-30
+   parsed 3 rows (running total: 44547)
+[767/1144] Limpopo                   2014-05-01 -> 2014-06-30
+   parsed 134 rows (running total: 44681)
+[768/1144] Olifants                  2014-05-01 -> 2014-06-30
+   parsed 31 rows (running total: 44712)
+[769/1144] Inkomati_Usuthu           2014-05-01 -> 2014-06-30
+   parsed 8 rows (running total: 44720)
+[770/1144] Orange                    2014-05-01 -> 2014-06-30
+   parsed 1 rows (running total: 44721)
+[771/1144] Vaal                      2014-05-01 -> 2014-06-30
+   parsed 21 rows (running total: 44742)
+[772/1144] Pongola_Mtamvuna          2014-05-01 -> 2014-06-30
+   parsed 95 rows (running total: 44837)
+[773/1144] Mzimvubu_Tsitsikamma      2014-05-01 -> 2014-06-30
+   parsed 1 rows (running total: 44838)
+[774/1144] Breede_Gouritz            2014-05-01 -> 2014-06-30
+   parsed 1 rows (running total: 44839)
+[775/1144] Limpopo                   2014-07-01 -> 2014-08-31
+   parsed 142 rows (running total: 44981)
+[776/1144] Olifants                  2014-07-01 -> 2014-08-31
+   parsed 42 rows (running total: 45023)
+[777/1144] Inkomati_Usuthu           2014-07-01 -> 2014-08-31
+   parsed 4 rows (running total: 45027)
+[778/1144] Vaal                      2014-07-01 -> 2014-08-31
+   parsed 19 rows (running total: 45046)
+[779/1144] Pongola_Mtamvuna          2014-07-01 -> 2014-08-31
+   parsed 98 rows (running total: 45144)
+[780/1144] Mzimvubu_Tsitsikamma      2014-07-01 -> 2014-08-31
+   parsed 2 rows (running total: 45146)
+[781/1144] Limpopo                   2014-09-01 -> 2014-10-31
+   parsed 188 rows (running total: 45334)
+[782/1144] Olifants                  2014-09-01 -> 2014-10-31
+   parsed 33 rows (running total: 45367)
+[783/1144] Inkomati_Usuthu           2014-09-01 -> 2014-10-31
+   parsed 5 rows (running total: 45372)
+[784/1144] Vaal                      2014-09-01 -> 2014-10-31
+   parsed 35 rows (running total: 45407)
+[785/1144] Pongola_Mtamvuna          2014-09-01 -> 2014-10-31
+   parsed 112 rows (running total: 45519)
+[786/1144] Mzimvubu_Tsitsikamma      2014-09-01 -> 2014-10-31
+   parsed 2 rows (running total: 45521)
+[787/1144] Limpopo                   2014-11-01 -> 2014-12-31
+   parsed 125 rows (running total: 45646)
+[788/1144] Olifants                  2014-11-01 -> 2014-12-31
+   parsed 25 rows (running total: 45671)
+[789/1144] Inkomati_Usuthu           2014-11-01 -> 2014-12-31
+   parsed 3 rows (running total: 45674)
+[790/1144] Vaal                      2014-11-01 -> 2014-12-31
+   parsed 33 rows (running total: 45707)
+[791/1144] Pongola_Mtamvuna          2014-11-01 -> 2014-12-31
+   parsed 131 rows (running total: 45838)
+[792/1144] Mzimvubu_Tsitsikamma      2014-11-01 -> 2014-12-31
+   parsed 3 rows (running total: 45841)
+[793/1144] Limpopo                   2015-01-01 -> 2015-02-28
+   parsed 124 rows (running total: 45965)
+[794/1144] Olifants                  2015-01-01 -> 2015-02-28
+   parsed 30 rows (running total: 45995)
+[795/1144] Inkomati_Usuthu           2015-01-01 -> 2015-02-28
+   parsed 12 rows (running total: 46007)
+[796/1144] Vaal                      2015-01-01 -> 2015-02-28
+   parsed 44 rows (running total: 46051)
+[797/1144] Pongola_Mtamvuna          2015-01-01 -> 2015-02-28
+   parsed 125 rows (running total: 46176)
+[798/1144] Limpopo                   2015-03-01 -> 2015-04-30
+   parsed 145 rows (running total: 46321)
+[799/1144] Olifants                  2015-03-01 -> 2015-04-30
+   parsed 27 rows (running total: 46348)
+[800/1144] Inkomati_Usuthu           2015-03-01 -> 2015-04-30
+   parsed 12 rows (running total: 46360)
+[801/1144] Vaal                      2015-03-01 -> 2015-04-30
+   parsed 38 rows (running total: 46398)
+[802/1144] Pongola_Mtamvuna          2015-03-01 -> 2015-04-30
+   parsed 129 rows (running total: 46527)
+[803/1144] Mzimvubu_Tsitsikamma      2015-03-01 -> 2015-04-30
+   parsed 2 rows (running total: 46529)
+[804/1144] Limpopo                   2015-05-01 -> 2015-06-30
+   parsed 160 rows (running total: 46689)
+[805/1144] Olifants                  2015-05-01 -> 2015-06-30
+   parsed 29 rows (running total: 46718)
+[806/1144] Inkomati_Usuthu           2015-05-01 -> 2015-06-30
+   parsed 12 rows (running total: 46730)
+[807/1144] Vaal                      2015-05-01 -> 2015-06-30
+   parsed 34 rows (running total: 46764)
+[808/1144] Pongola_Mtamvuna          2015-05-01 -> 2015-06-30
+   parsed 118 rows (running total: 46882)
+[809/1144] Mzimvubu_Tsitsikamma      2015-05-01 -> 2015-06-30
+   parsed 3 rows (running total: 46885)
+[810/1144] Limpopo                   2015-07-01 -> 2015-08-31
+   parsed 135 rows (running total: 47020)
+[811/1144] Olifants                  2015-07-01 -> 2015-08-31
+   parsed 27 rows (running total: 47047)
+[812/1144] Inkomati_Usuthu           2015-07-01 -> 2015-08-31
+   parsed 12 rows (running total: 47059)
+[813/1144] Vaal                      2015-07-01 -> 2015-08-31
+   parsed 42 rows (running total: 47101)
+[814/1144] Pongola_Mtamvuna          2015-07-01 -> 2015-08-31
+   parsed 150 rows (running total: 47251)
+[815/1144] Mzimvubu_Tsitsikamma      2015-07-01 -> 2015-08-31
+   parsed 4 rows (running total: 47255)
+[816/1144] Limpopo                   2015-09-01 -> 2015-10-31
+   parsed 101 rows (running total: 47356)
+[817/1144] Olifants                  2015-09-01 -> 2015-10-31
+   parsed 24 rows (running total: 47380)
+[818/1144] Inkomati_Usuthu           2015-09-01 -> 2015-10-31
+   parsed 12 rows (running total: 47392)
+[819/1144] Vaal                      2015-09-01 -> 2015-10-31
+   parsed 60 rows (running total: 47452)
+[820/1144] Pongola_Mtamvuna          2015-09-01 -> 2015-10-31
+   parsed 153 rows (running total: 47605)
+[821/1144] Mzimvubu_Tsitsikamma      2015-09-01 -> 2015-10-31
+   parsed 1 rows (running total: 47606)
+[822/1144] Limpopo                   2015-11-01 -> 2015-12-31
+   parsed 73 rows (running total: 47679)
+[823/1144] Olifants                  2015-11-01 -> 2015-12-31
+   parsed 18 rows (running total: 47697)
+[824/1144] Inkomati_Usuthu           2015-11-01 -> 2015-12-31
+   parsed 11 rows (running total: 47708)
+[825/1144] Vaal                      2015-11-01 -> 2015-12-31
+   parsed 58 rows (running total: 47766)
+[826/1144] Pongola_Mtamvuna          2015-11-01 -> 2015-12-31
+   parsed 62 rows (running total: 47828)
+[827/1144] Limpopo                   2016-01-01 -> 2016-02-29
+   parsed 99 rows (running total: 47927)
+[828/1144] Olifants                  2016-01-01 -> 2016-02-29
+   parsed 25 rows (running total: 47952)
+[829/1144] Inkomati_Usuthu           2016-01-01 -> 2016-02-29
+   parsed 8 rows (running total: 47960)
+[830/1144] Vaal                      2016-01-01 -> 2016-02-29
+   parsed 60 rows (running total: 48020)
+[831/1144] Pongola_Mtamvuna          2016-01-01 -> 2016-02-29
+   parsed 175 rows (running total: 48195)
+[832/1144] Mzimvubu_Tsitsikamma      2016-01-01 -> 2016-02-29
+   parsed 2 rows (running total: 48197)
+[833/1144] Limpopo                   2016-03-01 -> 2016-04-30
+   parsed 91 rows (running total: 48288)
+[834/1144] Olifants                  2016-03-01 -> 2016-04-30
+   parsed 20 rows (running total: 48308)
+[835/1144] Inkomati_Usuthu           2016-03-01 -> 2016-04-30
+   parsed 8 rows (running total: 48316)
+[836/1144] Vaal                      2016-03-01 -> 2016-04-30
+   parsed 71 rows (running total: 48387)
+[837/1144] Pongola_Mtamvuna          2016-03-01 -> 2016-04-30
+   parsed 110 rows (running total: 48497)
+[838/1144] Berg_Olifants             2016-03-01 -> 2016-04-30
+   parsed 1 rows (running total: 48498)
+[839/1144] Mzimvubu_Tsitsikamma      2016-03-01 -> 2016-04-30
+   parsed 2 rows (running total: 48500)
+[840/1144] Limpopo                   2016-05-01 -> 2016-06-30
+   parsed 105 rows (running total: 48605)
+[841/1144] Olifants                  2016-05-01 -> 2016-06-30
+   parsed 20 rows (running total: 48625)
+[842/1144] Inkomati_Usuthu           2016-05-01 -> 2016-06-30
+   parsed 8 rows (running total: 48633)
+[843/1144] Vaal                      2016-05-01 -> 2016-06-30
+   parsed 75 rows (running total: 48708)
+[844/1144] Pongola_Mtamvuna          2016-05-01 -> 2016-06-30
+   parsed 176 rows (running total: 48884)
+[845/1144] Berg_Olifants             2016-05-01 -> 2016-06-30
+   parsed 1 rows (running total: 48885)
+[846/1144] Mzimvubu_Tsitsikamma      2016-05-01 -> 2016-06-30
+   parsed 2 rows (running total: 48887)
+[847/1144] Limpopo                   2016-07-01 -> 2016-08-31
+   parsed 120 rows (running total: 49007)
+[848/1144] Olifants                  2016-07-01 -> 2016-08-31
+   parsed 24 rows (running total: 49031)
+[849/1144] Inkomati_Usuthu           2016-07-01 -> 2016-08-31
+   parsed 8 rows (running total: 49039)
+[850/1144] Vaal                      2016-07-01 -> 2016-08-31
+   parsed 65 rows (running total: 49104)
+[851/1144] Pongola_Mtamvuna          2016-07-01 -> 2016-08-31
+   parsed 177 rows (running total: 49281)
+[852/1144] Mzimvubu_Tsitsikamma      2016-07-01 -> 2016-08-31
+   parsed 5 rows (running total: 49286)
+[853/1144] Limpopo                   2016-09-01 -> 2016-10-31
+   parsed 117 rows (running total: 49403)
+[854/1144] Olifants                  2016-09-01 -> 2016-10-31
+   parsed 20 rows (running total: 49423)
+[855/1144] Inkomati_Usuthu           2016-09-01 -> 2016-10-31
+   parsed 65 rows (running total: 49488)
+[856/1144] Vaal                      2016-09-01 -> 2016-10-31
+   parsed 74 rows (running total: 49562)
+[857/1144] Pongola_Mtamvuna          2016-09-01 -> 2016-10-31
+   parsed 193 rows (running total: 49755)
+[858/1144] Mzimvubu_Tsitsikamma      2016-09-01 -> 2016-10-31
+   parsed 3 rows (running total: 49758)
+[859/1144] Limpopo                   2016-11-01 -> 2016-12-31
+   parsed 72 rows (running total: 49830)
+[860/1144] Olifants                  2016-11-01 -> 2016-12-31
+   parsed 12 rows (running total: 49842)
+[861/1144] Inkomati_Usuthu           2016-11-01 -> 2016-12-31
+   parsed 27 rows (running total: 49869)
+[862/1144] Vaal                      2016-11-01 -> 2016-12-31
+   parsed 64 rows (running total: 49933)
+[863/1144] Pongola_Mtamvuna          2016-11-01 -> 2016-12-31
+   parsed 200 rows (running total: 50133)
+[864/1144] Mzimvubu_Tsitsikamma      2016-11-01 -> 2016-12-31
+   parsed 2 rows (running total: 50135)
+[865/1144] Limpopo                   2017-01-01 -> 2017-02-28
+   parsed 94 rows (running total: 50229)
+[866/1144] Olifants                  2017-01-01 -> 2017-02-28
+   parsed 15 rows (running total: 50244)
+[867/1144] Inkomati_Usuthu           2017-01-01 -> 2017-02-28
+   parsed 12 rows (running total: 50256)
+[868/1144] Vaal                      2017-01-01 -> 2017-02-28
+   parsed 51 rows (running total: 50307)
+[869/1144] Pongola_Mtamvuna          2017-01-01 -> 2017-02-28
+   parsed 186 rows (running total: 50493)
+[870/1144] Mzimvubu_Tsitsikamma      2017-01-01 -> 2017-02-28
+   parsed 2 rows (running total: 50495)
+[871/1144] Limpopo                   2017-03-01 -> 2017-04-30
+   parsed 101 rows (running total: 50596)
+[872/1144] Olifants                  2017-03-01 -> 2017-04-30
+   parsed 16 rows (running total: 50612)
+[873/1144] Inkomati_Usuthu           2017-03-01 -> 2017-04-30
+   parsed 27 rows (running total: 50639)
+[874/1144] Vaal                      2017-03-01 -> 2017-04-30
+   parsed 56 rows (running total: 50695)
+[875/1144] Pongola_Mtamvuna          2017-03-01 -> 2017-04-30
+   parsed 93 rows (running total: 50788)
+[876/1144] Mzimvubu_Tsitsikamma      2017-03-01 -> 2017-04-30
+   parsed 2 rows (running total: 50790)
+[877/1144] Limpopo                   2017-05-01 -> 2017-06-30
+   parsed 96 rows (running total: 50886)
+[878/1144] Olifants                  2017-05-01 -> 2017-06-30
+   parsed 19 rows (running total: 50905)
+[879/1144] Inkomati_Usuthu           2017-05-01 -> 2017-06-30
+   parsed 12 rows (running total: 50917)
+[880/1144] Vaal                      2017-05-01 -> 2017-06-30
+   parsed 16 rows (running total: 50933)
+[881/1144] Mzimvubu_Tsitsikamma      2017-05-01 -> 2017-06-30
+   parsed 1 rows (running total: 50934)
+[882/1144] Limpopo                   2017-07-01 -> 2017-08-31
+   parsed 109 rows (running total: 51043)
+[883/1144] Olifants                  2017-07-01 -> 2017-08-31
+   parsed 20 rows (running total: 51063)
+[884/1144] Inkomati_Usuthu           2017-07-01 -> 2017-08-31
+   parsed 12 rows (running total: 51075)
+[885/1144] Vaal                      2017-07-01 -> 2017-08-31
+   parsed 15 rows (running total: 51090)
+[886/1144] Mzimvubu_Tsitsikamma      2017-07-01 -> 2017-08-31
+   parsed 1 rows (running total: 51091)
+[887/1144] Breede_Gouritz            2017-07-01 -> 2017-08-31
+   parsed 1 rows (running total: 51092)
+[888/1144] Limpopo                   2017-09-01 -> 2017-10-31
+   parsed 96 rows (running total: 51188)
+[889/1144] Olifants                  2017-09-01 -> 2017-10-31
+   parsed 12 rows (running total: 51200)
+[890/1144] Inkomati_Usuthu           2017-09-01 -> 2017-10-31
+   parsed 12 rows (running total: 51212)
+[891/1144] Vaal                      2017-09-01 -> 2017-10-31
+   parsed 16 rows (running total: 51228)
+[892/1144] Limpopo                   2017-11-01 -> 2017-12-31
+   parsed 72 rows (running total: 51300)
+[893/1144] Olifants                  2017-11-01 -> 2017-12-31
+   parsed 12 rows (running total: 51312)
+[894/1144] Inkomati_Usuthu           2017-11-01 -> 2017-12-31
+   parsed 12 rows (running total: 51324)
+[895/1144] Vaal                      2017-11-01 -> 2017-12-31
+   parsed 23 rows (running total: 51347)
+[896/1144] Breede_Gouritz            2017-11-01 -> 2017-12-31
+   parsed 1 rows (running total: 51348)
+[897/1144] Limpopo                   2018-01-01 -> 2018-02-28
+   parsed 73 rows (running total: 51421)
+[898/1144] Olifants                  2018-01-01 -> 2018-02-28
+   parsed 16 rows (running total: 51437)
+[899/1144] Inkomati_Usuthu           2018-01-01 -> 2018-02-28
+   parsed 12 rows (running total: 51449)
+[900/1144] Vaal                      2018-01-01 -> 2018-02-28
+   parsed 22 rows (running total: 51471)
+[901/1144] Breede_Gouritz            2018-01-01 -> 2018-02-28
+   parsed 28 rows (running total: 51499)
+[902/1144] Limpopo                   2018-03-01 -> 2018-04-30
+   parsed 81 rows (running total: 51580)
+[903/1144] Olifants                  2018-03-01 -> 2018-04-30
+   parsed 16 rows (running total: 51596)
+[904/1144] Inkomati_Usuthu           2018-03-01 -> 2018-04-30
+   parsed 13 rows (running total: 51609)
+[905/1144] Vaal                      2018-03-01 -> 2018-04-30
+   parsed 25 rows (running total: 51634)
+[906/1144] Pongola_Mtamvuna          2018-03-01 -> 2018-04-30
+   parsed 1 rows (running total: 51635)
+[907/1144] Breede_Gouritz            2018-03-01 -> 2018-04-30
+   parsed 29 rows (running total: 51664)
+[908/1144] Limpopo                   2018-05-01 -> 2018-06-30
+   parsed 71 rows (running total: 51735)
+[909/1144] Olifants                  2018-05-01 -> 2018-06-30
+   parsed 16 rows (running total: 51751)
+[910/1144] Inkomati_Usuthu           2018-05-01 -> 2018-06-30
+   parsed 14 rows (running total: 51765)
+[911/1144] Vaal                      2018-05-01 -> 2018-06-30
+   parsed 19 rows (running total: 51784)
+[912/1144] Breede_Gouritz            2018-05-01 -> 2018-06-30
+   parsed 27 rows (running total: 51811)
+[913/1144] Limpopo                   2018-07-01 -> 2018-08-31
+   parsed 86 rows (running total: 51897)
+[914/1144] Olifants                  2018-07-01 -> 2018-08-31
+   parsed 4 rows (running total: 51901)
+[915/1144] Inkomati_Usuthu           2018-07-01 -> 2018-08-31
+   parsed 10 rows (running total: 51911)
+[916/1144] Vaal                      2018-07-01 -> 2018-08-31
+   parsed 10 rows (running total: 51921)
+[917/1144] Breede_Gouritz            2018-07-01 -> 2018-08-31
+   parsed 1 rows (running total: 51922)
+[918/1144] Limpopo                   2018-09-01 -> 2018-10-31
+   parsed 7 rows (running total: 51929)
+[919/1144] Inkomati_Usuthu           2018-09-01 -> 2018-10-31
+   parsed 13 rows (running total: 51942)
+[920/1144] Vaal                      2018-09-01 -> 2018-10-31
+   parsed 15 rows (running total: 51957)
+[921/1144] Limpopo                   2018-11-01 -> 2018-12-31
+   parsed 3 rows (running total: 51960)
+[922/1144] Inkomati_Usuthu           2018-11-01 -> 2018-12-31
+   parsed 14 rows (running total: 51974)
+[923/1144] Vaal                      2018-11-01 -> 2018-12-31
+   parsed 8 rows (running total: 51982)
+[924/1144] Berg_Olifants             2018-11-01 -> 2018-12-31
+   parsed 3 rows (running total: 51985)
+[925/1144] Inkomati_Usuthu           2019-01-01 -> 2019-02-28
+   parsed 14 rows (running total: 51999)
+[926/1144] Vaal                      2019-01-01 -> 2019-02-28
+   parsed 9 rows (running total: 52008)
+[927/1144] Berg_Olifants             2019-01-01 -> 2019-02-28
+   parsed 5 rows (running total: 52013)
+[928/1144] Breede_Gouritz            2019-01-01 -> 2019-02-28
+   parsed 5 rows (running total: 52018)
+[929/1144] Inkomati_Usuthu           2019-03-01 -> 2019-04-30
+   parsed 14 rows (running total: 52032)
+[930/1144] Vaal                      2019-03-01 -> 2019-04-30
+   parsed 4 rows (running total: 52036)
+[931/1144] Berg_Olifants             2019-03-01 -> 2019-04-30
+   parsed 5 rows (running total: 52041)
+[932/1144] Breede_Gouritz            2019-03-01 -> 2019-04-30
+   parsed 13 rows (running total: 52054)
+[933/1144] Inkomati_Usuthu           2019-05-01 -> 2019-06-30
+   parsed 13 rows (running total: 52067)
+[934/1144] Vaal                      2019-05-01 -> 2019-06-30
+   parsed 9 rows (running total: 52076)
+[935/1144] Berg_Olifants             2019-05-01 -> 2019-06-30
+   parsed 4 rows (running total: 52080)
+[936/1144] Breede_Gouritz            2019-05-01 -> 2019-06-30
+   parsed 12 rows (running total: 52092)
+[937/1144] Limpopo                   2019-07-01 -> 2019-08-31
+   parsed 17 rows (running total: 52109)
+[938/1144] Olifants                  2019-07-01 -> 2019-08-31
+   parsed 3 rows (running total: 52112)
+[939/1144] Inkomati_Usuthu           2019-07-01 -> 2019-08-31
+   parsed 14 rows (running total: 52126)
+[940/1144] Vaal                      2019-07-01 -> 2019-08-31
+   parsed 7 rows (running total: 52133)
+[941/1144] Berg_Olifants             2019-07-01 -> 2019-08-31
+   parsed 9 rows (running total: 52142)
+[942/1144] Breede_Gouritz            2019-07-01 -> 2019-08-31
+   parsed 24 rows (running total: 52166)
+[943/1144] Limpopo                   2019-09-01 -> 2019-10-31
+   parsed 33 rows (running total: 52199)
+[944/1144] Olifants                  2019-09-01 -> 2019-10-31
+   parsed 3 rows (running total: 52202)
+[945/1144] Inkomati_Usuthu           2019-09-01 -> 2019-10-31
+   parsed 14 rows (running total: 52216)
+[946/1144] Vaal                      2019-09-01 -> 2019-10-31
+   parsed 12 rows (running total: 52228)
+[947/1144] Berg_Olifants             2019-09-01 -> 2019-10-31
+   parsed 12 rows (running total: 52240)
+[948/1144] Breede_Gouritz            2019-09-01 -> 2019-10-31
+   parsed 13 rows (running total: 52253)
+[949/1144] Limpopo                   2019-11-01 -> 2019-12-31
+   parsed 27 rows (running total: 52280)
+[950/1144] Olifants                  2019-11-01 -> 2019-12-31
+   parsed 5 rows (running total: 52285)
+[951/1144] Inkomati_Usuthu           2019-11-01 -> 2019-12-31
+   parsed 13 rows (running total: 52298)
+[952/1144] Vaal                      2019-11-01 -> 2019-12-31
+   parsed 11 rows (running total: 52309)
+[953/1144] Berg_Olifants             2019-11-01 -> 2019-12-31
+   parsed 13 rows (running total: 52322)
+[954/1144] Breede_Gouritz            2019-11-01 -> 2019-12-31
+   parsed 4 rows (running total: 52326)
+[955/1144] Limpopo                   2020-01-01 -> 2020-02-29
+   parsed 30 rows (running total: 52356)
+[956/1144] Olifants                  2020-01-01 -> 2020-02-29
+   parsed 5 rows (running total: 52361)
+[957/1144] Inkomati_Usuthu           2020-01-01 -> 2020-02-29
+   parsed 14 rows (running total: 52375)
+[958/1144] Vaal                      2020-01-01 -> 2020-02-29
+   parsed 12 rows (running total: 52387)
+[959/1144] Berg_Olifants             2020-01-01 -> 2020-02-29
+   parsed 6 rows (running total: 52393)
+[960/1144] Mzimvubu_Tsitsikamma      2020-01-01 -> 2020-02-29
+   parsed 1 rows (running total: 52394)
+[961/1144] Breede_Gouritz            2020-01-01 -> 2020-02-29
+   parsed 1 rows (running total: 52395)
+[962/1144] Limpopo                   2020-03-01 -> 2020-04-30
+   parsed 2 rows (running total: 52397)
+[963/1144] Inkomati_Usuthu           2020-03-01 -> 2020-04-30
+   parsed 7 rows (running total: 52404)
+[964/1144] Vaal                      2020-03-01 -> 2020-04-30
+   parsed 5 rows (running total: 52409)
+[965/1144] Berg_Olifants             2020-03-01 -> 2020-04-30
+   parsed 1 rows (running total: 52410)
+[966/1144] Inkomati_Usuthu           2020-05-01 -> 2020-06-30
+   parsed 10 rows (running total: 52420)
+[967/1144] Vaal                      2020-05-01 -> 2020-06-30
+   parsed 1 rows (running total: 52421)
+[968/1144] Breede_Gouritz            2020-05-01 -> 2020-06-30
+   parsed 8 rows (running total: 52429)
+[969/1144] Inkomati_Usuthu           2020-07-01 -> 2020-08-31
+   parsed 13 rows (running total: 52442)
+[970/1144] Vaal                      2020-07-01 -> 2020-08-31
+   parsed 7 rows (running total: 52449)
+[971/1144] Mzimvubu_Tsitsikamma      2020-07-01 -> 2020-08-31
+   parsed 2 rows (running total: 52451)
+[972/1144] Breede_Gouritz            2020-07-01 -> 2020-08-31
+   parsed 23 rows (running total: 52474)
+[973/1144] Limpopo                   2020-09-01 -> 2020-10-31
+   parsed 8 rows (running total: 52482)
+[974/1144] Olifants                  2020-09-01 -> 2020-10-31
+   parsed 1 rows (running total: 52483)
+[975/1144] Inkomati_Usuthu           2020-09-01 -> 2020-10-31
+   parsed 14 rows (running total: 52497)
+[976/1144] Vaal                      2020-09-01 -> 2020-10-31
+   parsed 7 rows (running total: 52504)
+[977/1144] Berg_Olifants             2020-09-01 -> 2020-10-31
+   parsed 10 rows (running total: 52514)
+[978/1144] Breede_Gouritz            2020-09-01 -> 2020-10-31
+   parsed 3 rows (running total: 52517)
+[979/1144] Limpopo                   2020-11-01 -> 2020-12-31
+   parsed 17 rows (running total: 52534)
+[980/1144] Olifants                  2020-11-01 -> 2020-12-31
+   parsed 2 rows (running total: 52536)
+[981/1144] Inkomati_Usuthu           2020-11-01 -> 2020-12-31
+   parsed 12 rows (running total: 52548)
+[982/1144] Vaal                      2020-11-01 -> 2020-12-31
+   parsed 6 rows (running total: 52554)
+[983/1144] Berg_Olifants             2020-11-01 -> 2020-12-31
+   parsed 12 rows (running total: 52566)
+[984/1144] Breede_Gouritz            2020-11-01 -> 2020-12-31
+   parsed 1 rows (running total: 52567)
+[985/1144] Limpopo                   2021-01-01 -> 2021-02-28
+   parsed 18 rows (running total: 52585)
+[986/1144] Olifants                  2021-01-01 -> 2021-02-28
+   parsed 4 rows (running total: 52589)
+[987/1144] Inkomati_Usuthu           2021-01-01 -> 2021-02-28
+   parsed 8 rows (running total: 52597)
+[988/1144] Vaal                      2021-01-01 -> 2021-02-28
+   parsed 7 rows (running total: 52604)
+[989/1144] Berg_Olifants             2021-01-01 -> 2021-02-28
+   parsed 3 rows (running total: 52607)
+[990/1144] Breede_Gouritz            2021-01-01 -> 2021-02-28
+   parsed 17 rows (running total: 52624)
+[991/1144] Limpopo                   2021-03-01 -> 2021-04-30
+   parsed 38 rows (running total: 52662)
+[992/1144] Olifants                  2021-03-01 -> 2021-04-30
+   parsed 2 rows (running total: 52664)
+[993/1144] Inkomati_Usuthu           2021-03-01 -> 2021-04-30
+   parsed 8 rows (running total: 52672)
+[994/1144] Vaal                      2021-03-01 -> 2021-04-30
+   parsed 8 rows (running total: 52680)
+[995/1144] Berg_Olifants             2021-03-01 -> 2021-04-30
+   parsed 7 rows (running total: 52687)
+[996/1144] Mzimvubu_Tsitsikamma      2021-03-01 -> 2021-04-30
+   parsed 1 rows (running total: 52688)
+[997/1144] Breede_Gouritz            2021-03-01 -> 2021-04-30
+   parsed 18 rows (running total: 52706)
+[998/1144] Limpopo                   2021-05-01 -> 2021-06-30
+   parsed 51 rows (running total: 52757)
+[999/1144] Inkomati_Usuthu           2021-05-01 -> 2021-06-30
+   parsed 8 rows (running total: 52765)
+[1000/1144] Vaal                      2021-05-01 -> 2021-06-30
+   parsed 13 rows (running total: 52778)
+[1001/1144] Berg_Olifants             2021-05-01 -> 2021-06-30
+   parsed 12 rows (running total: 52790)
+[1002/1144] Breede_Gouritz            2021-05-01 -> 2021-06-30
+   parsed 17 rows (running total: 52807)
+[1003/1144] Limpopo                   2021-07-01 -> 2021-08-31
+   parsed 66 rows (running total: 52873)
+[1004/1144] Olifants                  2021-07-01 -> 2021-08-31
+   parsed 2 rows (running total: 52875)
+[1005/1144] Inkomati_Usuthu           2021-07-01 -> 2021-08-31
+   parsed 8 rows (running total: 52883)
+[1006/1144] Vaal                      2021-07-01 -> 2021-08-31
+   parsed 7 rows (running total: 52890)
+[1007/1144] Berg_Olifants             2021-07-01 -> 2021-08-31
+   parsed 2 rows (running total: 52892)
+[1008/1144] Mzimvubu_Tsitsikamma      2021-07-01 -> 2021-08-31
+   parsed 1 rows (running total: 52893)
+[1009/1144] Breede_Gouritz            2021-07-01 -> 2021-08-31
+   parsed 23 rows (running total: 52916)
+[1010/1144] Limpopo                   2021-09-01 -> 2021-10-31
+   parsed 52 rows (running total: 52968)
+[1011/1144] Inkomati_Usuthu           2021-09-01 -> 2021-10-31
+   parsed 11 rows (running total: 52979)
+[1012/1144] Vaal                      2021-09-01 -> 2021-10-31
+   parsed 12 rows (running total: 52991)
+[1013/1144] Berg_Olifants             2021-09-01 -> 2021-10-31
+   parsed 8 rows (running total: 52999)
+[1014/1144] Mzimvubu_Tsitsikamma      2021-09-01 -> 2021-10-31
+   parsed 1 rows (running total: 53000)
+[1015/1144] Breede_Gouritz            2021-09-01 -> 2021-10-31
+   parsed 22 rows (running total: 53022)
+[1016/1144] Limpopo                   2021-11-01 -> 2021-12-31
+   parsed 49 rows (running total: 53071)
+[1017/1144] Olifants                  2021-11-01 -> 2021-12-31
+   parsed 2 rows (running total: 53073)
+[1018/1144] Inkomati_Usuthu           2021-11-01 -> 2021-12-31
+   parsed 14 rows (running total: 53087)
+[1019/1144] Vaal                      2021-11-01 -> 2021-12-31
+   parsed 9 rows (running total: 53096)
+[1020/1144] Berg_Olifants             2021-11-01 -> 2021-12-31
+   parsed 9 rows (running total: 53105)
+[1021/1144] Breede_Gouritz            2021-11-01 -> 2021-12-31
+   parsed 13 rows (running total: 53118)
+[1022/1144] Limpopo                   2022-01-01 -> 2022-02-28
+   parsed 81 rows (running total: 53199)
+[1023/1144] Olifants                  2022-01-01 -> 2022-02-28
+   parsed 2 rows (running total: 53201)
+[1024/1144] Inkomati_Usuthu           2022-01-01 -> 2022-02-28
+   parsed 6 rows (running total: 53207)
+[1025/1144] Vaal                      2022-01-01 -> 2022-02-28
+   parsed 9 rows (running total: 53216)
+[1026/1144] Pongola_Mtamvuna          2022-01-01 -> 2022-02-28
+   parsed 1 rows (running total: 53217)
+[1027/1144] Berg_Olifants             2022-01-01 -> 2022-02-28
+   parsed 8 rows (running total: 53225)
+[1028/1144] Mzimvubu_Tsitsikamma      2022-01-01 -> 2022-02-28
+   parsed 1 rows (running total: 53226)
+[1029/1144] Breede_Gouritz            2022-01-01 -> 2022-02-28
+   parsed 19 rows (running total: 53245)
+[1030/1144] Limpopo                   2022-03-01 -> 2022-04-30
+   parsed 58 rows (running total: 53303)
+[1031/1144] Inkomati_Usuthu           2022-03-01 -> 2022-04-30
+   parsed 7 rows (running total: 53310)
+[1032/1144] Vaal                      2022-03-01 -> 2022-04-30
+   parsed 11 rows (running total: 53321)
+[1033/1144] Pongola_Mtamvuna          2022-03-01 -> 2022-04-30
+   parsed 7 rows (running total: 53328)
+[1034/1144] Berg_Olifants             2022-03-01 -> 2022-04-30
+   parsed 3 rows (running total: 53331)
+[1035/1144] Mzimvubu_Tsitsikamma      2022-03-01 -> 2022-04-30
+   parsed 1 rows (running total: 53332)
+[1036/1144] Breede_Gouritz            2022-03-01 -> 2022-04-30
+   parsed 22 rows (running total: 53354)
+[1037/1144] Limpopo                   2022-05-01 -> 2022-06-30
+   parsed 59 rows (running total: 53413)
+[1038/1144] Vaal                      2022-05-01 -> 2022-06-30
+   parsed 15 rows (running total: 53428)
+[1039/1144] Pongola_Mtamvuna          2022-05-01 -> 2022-06-30
+   parsed 11 rows (running total: 53439)
+[1040/1144] Berg_Olifants             2022-05-01 -> 2022-06-30
+   parsed 8 rows (running total: 53447)
+[1041/1144] Mzimvubu_Tsitsikamma      2022-05-01 -> 2022-06-30
+   parsed 1 rows (running total: 53448)
+[1042/1144] Breede_Gouritz            2022-05-01 -> 2022-06-30
+   parsed 23 rows (running total: 53471)
+[1043/1144] Limpopo                   2022-07-01 -> 2022-08-31
+   parsed 70 rows (running total: 53541)
+[1044/1144] Olifants                  2022-07-01 -> 2022-08-31
+   parsed 32 rows (running total: 53573)
+[1045/1144] Inkomati_Usuthu           2022-07-01 -> 2022-08-31
+   parsed 8 rows (running total: 53581)
+[1046/1144] Vaal                      2022-07-01 -> 2022-08-31
+   parsed 17 rows (running total: 53598)
+[1047/1144] Pongola_Mtamvuna          2022-07-01 -> 2022-08-31
+   parsed 18 rows (running total: 53616)
+[1048/1144] Berg_Olifants             2022-07-01 -> 2022-08-31
+   parsed 4 rows (running total: 53620)
+[1049/1144] Breede_Gouritz            2022-07-01 -> 2022-08-31
+   parsed 19 rows (running total: 53639)
+[1050/1144] Limpopo                   2022-09-01 -> 2022-10-31
+   parsed 109 rows (running total: 53748)
+[1051/1144] Olifants                  2022-09-01 -> 2022-10-31
+   parsed 40 rows (running total: 53788)
+[1052/1144] Inkomati_Usuthu           2022-09-01 -> 2022-10-31
+   parsed 8 rows (running total: 53796)
+[1053/1144] Vaal                      2022-09-01 -> 2022-10-31
+   parsed 25 rows (running total: 53821)
+[1054/1144] Pongola_Mtamvuna          2022-09-01 -> 2022-10-31
+   parsed 9 rows (running total: 53830)
+[1055/1144] Breede_Gouritz            2022-09-01 -> 2022-10-31
+   parsed 28 rows (running total: 53858)
+[1056/1144] Limpopo                   2022-11-01 -> 2022-12-31
+   parsed 67 rows (running total: 53925)
+[1057/1144] Olifants                  2022-11-01 -> 2022-12-31
+   parsed 30 rows (running total: 53955)
+[1058/1144] Inkomati_Usuthu           2022-11-01 -> 2022-12-31
+   parsed 8 rows (running total: 53963)
+[1059/1144] Vaal                      2022-11-01 -> 2022-12-31
+   parsed 20 rows (running total: 53983)
+[1060/1144] Pongola_Mtamvuna          2022-11-01 -> 2022-12-31
+   parsed 4 rows (running total: 53987)
+[1061/1144] Breede_Gouritz            2022-11-01 -> 2022-12-31
+   parsed 22 rows (running total: 54009)
+[1062/1144] Limpopo                   2023-01-01 -> 2023-02-28
+   parsed 67 rows (running total: 54076)
+[1063/1144] Olifants                  2023-01-01 -> 2023-02-28
+   parsed 32 rows (running total: 54108)
+[1064/1144] Inkomati_Usuthu           2023-01-01 -> 2023-02-28
+   parsed 12 rows (running total: 54120)
+[1065/1144] Vaal                      2023-01-01 -> 2023-02-28
+   parsed 26 rows (running total: 54146)
+[1066/1144] Pongola_Mtamvuna          2023-01-01 -> 2023-02-28
+   parsed 10 rows (running total: 54156)
+[1067/1144] Berg_Olifants             2023-01-01 -> 2023-02-28
+   parsed 13 rows (running total: 54169)
+[1068/1144] Breede_Gouritz            2023-01-01 -> 2023-02-28
+   parsed 22 rows (running total: 54191)
+[1069/1144] Limpopo                   2023-03-01 -> 2023-04-30
+   parsed 57 rows (running total: 54248)
+[1070/1144] Olifants                  2023-03-01 -> 2023-04-30
+   parsed 24 rows (running total: 54272)
+[1071/1144] Inkomati_Usuthu           2023-03-01 -> 2023-04-30
+   parsed 12 rows (running total: 54284)
+[1072/1144] Vaal                      2023-03-01 -> 2023-04-30
+   parsed 19 rows (running total: 54303)
+[1073/1144] Pongola_Mtamvuna          2023-03-01 -> 2023-04-30
+   parsed 11 rows (running total: 54314)
+[1074/1144] Berg_Olifants             2023-03-01 -> 2023-04-30
+   parsed 6 rows (running total: 54320)
+[1075/1144] Breede_Gouritz            2023-03-01 -> 2023-04-30
+   parsed 22 rows (running total: 54342)
+[1076/1144] Limpopo                   2023-05-01 -> 2023-06-30
+   parsed 77 rows (running total: 54419)
+[1077/1144] Olifants                  2023-05-01 -> 2023-06-30
+   parsed 30 rows (running total: 54449)
+[1078/1144] Inkomati_Usuthu           2023-05-01 -> 2023-06-30
+   parsed 12 rows (running total: 54461)
+[1079/1144] Vaal                      2023-05-01 -> 2023-06-30
+   parsed 24 rows (running total: 54485)
+[1080/1144] Pongola_Mtamvuna          2023-05-01 -> 2023-06-30
+   parsed 15 rows (running total: 54500)
+[1081/1144] Berg_Olifants             2023-05-01 -> 2023-06-30
+   parsed 5 rows (running total: 54505)
+[1082/1144] Breede_Gouritz            2023-05-01 -> 2023-06-30
+   parsed 20 rows (running total: 54525)
+[1083/1144] Limpopo                   2023-07-01 -> 2023-08-31
+   parsed 136 rows (running total: 54661)
+[1084/1144] Olifants                  2023-07-01 -> 2023-08-31
+   parsed 40 rows (running total: 54701)
+[1085/1144] Inkomati_Usuthu           2023-07-01 -> 2023-08-31
+   parsed 8 rows (running total: 54709)
+[1086/1144] Orange                    2023-07-01 -> 2023-08-31
+   parsed 2 rows (running total: 54711)
+[1087/1144] Vaal                      2023-07-01 -> 2023-08-31
+   parsed 41 rows (running total: 54752)
+[1088/1144] Pongola_Mtamvuna          2023-07-01 -> 2023-08-31
+   parsed 15 rows (running total: 54767)
+[1089/1144] Berg_Olifants             2023-07-01 -> 2023-08-31
+   parsed 12 rows (running total: 54779)
+[1090/1144] Breede_Gouritz            2023-07-01 -> 2023-08-31
+   parsed 20 rows (running total: 54799)
+[1091/1144] Limpopo                   2023-09-01 -> 2023-10-31
+   parsed 100 rows (running total: 54899)
+[1092/1144] Olifants                  2023-09-01 -> 2023-10-31
+   parsed 32 rows (running total: 54931)
+[1093/1144] Inkomati_Usuthu           2023-09-01 -> 2023-10-31
+   parsed 8 rows (running total: 54939)
+[1094/1144] Orange                    2023-09-01 -> 2023-10-31
+   parsed 2 rows (running total: 54941)
+[1095/1144] Vaal                      2023-09-01 -> 2023-10-31
+   parsed 35 rows (running total: 54976)
+[1096/1144] Pongola_Mtamvuna          2023-09-01 -> 2023-10-31
+   parsed 14 rows (running total: 54990)
+[1097/1144] Berg_Olifants             2023-09-01 -> 2023-10-31
+   parsed 10 rows (running total: 55000)
+[1098/1144] Breede_Gouritz            2023-09-01 -> 2023-10-31
+   parsed 21 rows (running total: 55021)
+[1099/1144] Limpopo                   2023-11-01 -> 2023-12-31
+   parsed 107 rows (running total: 55128)
+[1100/1144] Olifants                  2023-11-01 -> 2023-12-31
+   parsed 28 rows (running total: 55156)
+[1101/1144] Inkomati_Usuthu           2023-11-01 -> 2023-12-31
+   parsed 8 rows (running total: 55164)
+[1102/1144] Orange                    2023-11-01 -> 2023-12-31
+   parsed 2 rows (running total: 55166)
+[1103/1144] Vaal                      2023-11-01 -> 2023-12-31
+   parsed 27 rows (running total: 55193)
+[1104/1144] Berg_Olifants             2023-11-01 -> 2023-12-31
+   parsed 11 rows (running total: 55204)
+[1105/1144] Breede_Gouritz            2023-11-01 -> 2023-12-31
+   parsed 21 rows (running total: 55225)
+[1106/1144] Limpopo                   2024-01-01 -> 2024-02-29
+   parsed 130 rows (running total: 55355)
+[1107/1144] Olifants                  2024-01-01 -> 2024-02-29
+   parsed 49 rows (running total: 55404)
+[1108/1144] Inkomati_Usuthu           2024-01-01 -> 2024-02-29
+   parsed 6 rows (running total: 55410)
+[1109/1144] Vaal                      2024-01-01 -> 2024-02-29
+   parsed 38 rows (running total: 55448)
+[1110/1144] Berg_Olifants             2024-01-01 -> 2024-02-29
+   parsed 11 rows (running total: 55459)
+[1111/1144] Breede_Gouritz            2024-01-01 -> 2024-02-29
+   parsed 7 rows (running total: 55466)
+[1112/1144] Limpopo                   2024-03-01 -> 2024-04-30
+   parsed 75 rows (running total: 55541)
+[1113/1144] Olifants                  2024-03-01 -> 2024-04-30
+   parsed 39 rows (running total: 55580)
+[1114/1144] Inkomati_Usuthu           2024-03-01 -> 2024-04-30
+   parsed 6 rows (running total: 55586)
+[1115/1144] Vaal                      2024-03-01 -> 2024-04-30
+   parsed 38 rows (running total: 55624)
+[1116/1144] Pongola_Mtamvuna          2024-03-01 -> 2024-04-30
+   parsed 7 rows (running total: 55631)
+[1117/1144] Berg_Olifants             2024-03-01 -> 2024-04-30
+   parsed 7 rows (running total: 55638)
+[1118/1144] Breede_Gouritz            2024-03-01 -> 2024-04-30
+   parsed 3 rows (running total: 55641)
+[1119/1144] Limpopo                   2024-05-01 -> 2024-06-30
+   parsed 55 rows (running total: 55696)
+[1120/1144] Olifants                  2024-05-01 -> 2024-06-30
+   parsed 20 rows (running total: 55716)
+[1121/1144] Inkomati_Usuthu           2024-05-01 -> 2024-06-30
+   parsed 6 rows (running total: 55722)
+[1122/1144] Vaal                      2024-05-01 -> 2024-06-30
+   parsed 22 rows (running total: 55744)
+[1123/1144] Pongola_Mtamvuna          2024-05-01 -> 2024-06-30
+   parsed 7 rows (running total: 55751)
+[1124/1144] Berg_Olifants             2024-05-01 -> 2024-06-30
+   parsed 15 rows (running total: 55766)
+[1125/1144] Limpopo                   2024-07-01 -> 2024-08-31
+   parsed 88 rows (running total: 55854)
+[1126/1144] Olifants                  2024-07-01 -> 2024-08-31
+   parsed 29 rows (running total: 55883)
+[1127/1144] Inkomati_Usuthu           2024-07-01 -> 2024-08-31
+   parsed 6 rows (running total: 55889)
+[1128/1144] Vaal                      2024-07-01 -> 2024-08-31
+   parsed 45 rows (running total: 55934)
+[1129/1144] Berg_Olifants             2024-07-01 -> 2024-08-31
+   parsed 9 rows (running total: 55943)
+[1130/1144] Breede_Gouritz            2024-07-01 -> 2024-08-31
+   parsed 6 rows (running total: 55949)
+[1131/1144] Limpopo                   2024-09-01 -> 2024-10-31
+   parsed 112 rows (running total: 56061)
+[1132/1144] Olifants                  2024-09-01 -> 2024-10-31
+   parsed 43 rows (running total: 56104)
+[1133/1144] Inkomati_Usuthu           2024-09-01 -> 2024-10-31
+   parsed 6 rows (running total: 56110)
+[1134/1144] Vaal                      2024-09-01 -> 2024-10-31
+   parsed 36 rows (running total: 56146)
+[1135/1144] Pongola_Mtamvuna          2024-09-01 -> 2024-10-31
+   parsed 11 rows (running total: 56157)
+[1136/1144] Berg_Olifants             2024-09-01 -> 2024-10-31
+   parsed 13 rows (running total: 56170)
+[1137/1144] Breede_Gouritz            2024-09-01 -> 2024-10-31
+   parsed 10 rows (running total: 56180)
+[1138/1144] Limpopo                   2024-11-01 -> 2024-12-31
+   parsed 95 rows (running total: 56275)
+[1139/1144] Olifants                  2024-11-01 -> 2024-12-31
+   parsed 32 rows (running total: 56307)
+[1140/1144] Inkomati_Usuthu           2024-11-01 -> 2024-12-31
+   parsed 6 rows (running total: 56313)
+[1141/1144] Vaal                      2024-11-01 -> 2024-12-31
+   parsed 26 rows (running total: 56339)
+[1142/1144] Pongola_Mtamvuna          2024-11-01 -> 2024-12-31
+   parsed 8 rows (running total: 56347)
+[1143/1144] Berg_Olifants             2024-11-01 -> 2024-12-31
+   parsed 12 rows (running total: 56359)
+[1144/1144] Breede_Gouritz            2024-11-01 -> 2024-12-31
+   parsed 10 rows (running total: 56369)
+
+Total rows parsed (raw):  56369
+Rows kept after filter:   25625
+Written: /Users/tristanmartin/Desktop/GM2/Data/scraped/full_dataset.csv  (25625 rows)
+Written: /Users/tristanmartin/Desktop/GM2/Data/scraped/full_dataset_raw.csv  (56369 rows, unfiltered)
