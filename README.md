@@ -8,3 +8,12 @@ https://reports.raeng.org.uk/africa-prize-2023-interactive-showcase/allen-chafa.
 - Thursday, 28 May - Friday, 29 May: One to one meetings with project leader to discuss teamwork.
 - Monday, 1 June (JDB Teaching Room): Interim Presentations.
 - Thursday, 11 June (4 PM): Project Output Submission
+
+## .gitattributes
+lfs for large datasets.
+
+## WNTR
+Potential simulator for the algorithm (to be used pre-microcontroller build).
+
+## Research
+Documents used for context, guidelines, and WHO framework. 
