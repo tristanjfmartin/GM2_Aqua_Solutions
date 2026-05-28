@@ -143,7 +143,10 @@
 </head>
 <body>
     <header>
-        <h1>Medical portal — file an illness report</h1>
+        <h1 style="font-size: 18px; margin: 0;">
+            <a href="{{ url_for('medical_report_form') }}" style="color: var(--accent); text-decoration: none; margin-right: 12px;">File a report</a>
+            <a href="{{ url_for('medical_history') }}" style="color: var(--accent); text-decoration: none; margin-right: 12px;">History</a>
+        </h1>
         <div class="meta">
             Signed in as {{ session['display_name'] }} ({{ session['role'] }})
             <a href="{{ url_for('logout') }}">Sign out</a>
