@@ -3,24 +3,29 @@
 import json
 import re
 
+from sqlalchemy import text
+
 
 def _insert_medical_reports(n=3):
     from database import connection
     with connection() as c:
-        for i in range(n):
-            c.execute(
-                "INSERT INTO illness_reports (station_id, raw_message, parser_version, "
-                "report_source, submitter, case_count, symptoms, risk_tier) "
-                "VALUES (?, ?, ?, 'medical_portal', 'dr.smith', ?, ?, ?)",
-                (
-                    (i % 4) + 1,
-                    f"report {i}",
-                    "v",
-                    i + 1,
-                    json.dumps(["diarrhoea"]),
-                    ["low", "medium", "high"][i % 3],
-                ),
-            )
+        with c.begin():
+            for i in range(n):
+                c.execute(
+                    text(
+                        "INSERT INTO illness_reports (station_id, raw_message, parser_version, "
+                        "report_source, submitter, case_count, symptoms, risk_tier) "
+                        "VALUES (:sid, :msg, :pv, 'medical_portal', 'dr.smith', :cc, :sym, :rt)"
+                    ),
+                    {
+                        "sid": (i % 4) + 1,
+                        "msg": f"report {i}",
+                        "pv": "v",
+                        "cc": i + 1,
+                        "sym": json.dumps(["diarrhoea"]),
+                        "rt": ["low", "medium", "high"][i % 3],
+                    },
+                )
 
 
 def test_anonymous_blocked(client):
@@ -52,11 +57,14 @@ def test_history_excludes_sms_reports(med_session):
     from database import connection
     _insert_medical_reports(1)
     with connection() as c:
-        c.execute(
-            "INSERT INTO illness_reports (station_id, raw_message, parser_version, "
-            "report_source, reporter_phone) "
-            "VALUES (1, 'station 1', 'v', 'sms', '+1555')"
-        )
+        with c.begin():
+            c.execute(
+                text(
+                    "INSERT INTO illness_reports (station_id, raw_message, parser_version, "
+                    "report_source, reporter_phone) "
+                    "VALUES (1, 'station 1', 'v', 'sms', '+1555')"
+                )
+            )
     r = med_session.get("/medical/history")
     body = r.data.decode("utf-8")
     assert "+1555" not in body

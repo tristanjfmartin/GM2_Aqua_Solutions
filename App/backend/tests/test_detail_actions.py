@@ -1,12 +1,18 @@
+from sqlalchemy import text
+
+
 def _insert_report(station_id=1):
     from database import connection
     with connection() as c:
-        cur = c.execute(
-            "INSERT INTO illness_reports (station_id, raw_message, parser_version, report_source) "
-            "VALUES (?, 'station x', 'v', 'sms')",
-            (station_id,),
-        )
-        return cur.lastrowid
+        with c.begin():
+            cur = c.execute(
+                text(
+                    "INSERT INTO illness_reports (station_id, raw_message, parser_version, report_source) "
+                    "VALUES (:sid, 'station x', 'v', 'sms')"
+                ),
+                {"sid": station_id},
+            )
+            return cur.lastrowid
 
 
 def test_detail_page_has_action_buttons(gov_session):
@@ -29,9 +35,9 @@ def test_action_from_detail_records_related_report(gov_session):
     from database import connection
     with connection() as c:
         iv = c.execute(
-            "SELECT related_report_id FROM interventions ORDER BY intervention_id DESC LIMIT 1"
+            text("SELECT related_report_id FROM interventions ORDER BY intervention_id DESC LIMIT 1")
         ).fetchone()
-        assert iv["related_report_id"] == rid
+        assert iv[0] == rid
 
 
 def test_detail_shows_interventions_for_this_report(gov_session):

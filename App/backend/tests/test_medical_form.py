@@ -15,6 +15,7 @@ def test_form_renders_risk_tier_dropdown(med_session):
 
 
 def test_submitting_with_risk_tier_persists_it(med_session):
+    from sqlalchemy import text
     r = med_session.post("/medical/report", data={
         "station_id": "1",
         "case_count": "3",
@@ -26,11 +27,12 @@ def test_submitting_with_risk_tier_persists_it(med_session):
     assert r.status_code == 200
     from database import connection
     with connection() as c:
-        row = c.execute("SELECT risk_tier FROM illness_reports ORDER BY report_id DESC LIMIT 1").fetchone()
-        assert row["risk_tier"] == "high"
+        row = c.execute(text("SELECT risk_tier FROM illness_reports ORDER BY report_id DESC LIMIT 1")).fetchone()
+        assert row[0] == "high"
 
 
 def test_submitting_without_risk_tier_stores_null(med_session):
+    from sqlalchemy import text
     r = med_session.post("/medical/report", data={
         "station_id": "2",
         "case_count": "1",
@@ -42,8 +44,8 @@ def test_submitting_without_risk_tier_stores_null(med_session):
     assert r.status_code == 200
     from database import connection
     with connection() as c:
-        row = c.execute("SELECT risk_tier FROM illness_reports ORDER BY report_id DESC LIMIT 1").fetchone()
-        assert row["risk_tier"] is None
+        row = c.execute(text("SELECT risk_tier FROM illness_reports ORDER BY report_id DESC LIMIT 1")).fetchone()
+        assert row[0] is None
 
 
 def test_submitting_bogus_risk_tier_is_rejected(med_session):

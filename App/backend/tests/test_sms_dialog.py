@@ -2,6 +2,8 @@
 
 import re
 
+from sqlalchemy import text
+
 
 def _sms(client, body, frm="+15551234567"):
     return client.post("/sms", data={"From": frm, "Body": body})
@@ -11,9 +13,12 @@ def _last_report(phone="+15551234567"):
     from database import connection
     with connection() as c:
         return c.execute(
-            "SELECT * FROM illness_reports WHERE reporter_phone = ? "
-            "ORDER BY report_id DESC LIMIT 1", (phone,)
-        ).fetchone()
+            text(
+                "SELECT * FROM illness_reports WHERE reporter_phone = :phone "
+                "ORDER BY report_id DESC LIMIT 1"
+            ),
+            {"phone": phone},
+        ).mappings().fetchone()
 
 
 def test_first_sms_with_station_starts_conversation(client):
@@ -105,14 +110,16 @@ def test_new_station_mid_conversation_abandons_old(client):
     from database import connection
     with connection() as c:
         rows = c.execute(
-            "SELECT station_id, dialog_state FROM illness_reports "
-            "WHERE reporter_phone = '+15551234567' ORDER BY report_id"
+            text(
+                "SELECT station_id, dialog_state FROM illness_reports "
+                "WHERE reporter_phone = '+15551234567' ORDER BY report_id"
+            )
         ).fetchall()
         assert len(rows) == 2
-        assert rows[0]["station_id"] == 4
-        assert rows[0]["dialog_state"] == "abandoned"
-        assert rows[1]["station_id"] == 7
-        assert rows[1]["dialog_state"] == "awaiting_case_count"
+        assert rows[0][0] == 4
+        assert rows[0][1] == "abandoned"
+        assert rows[1][0] == 7
+        assert rows[1][1] == "awaiting_case_count"
 
 
 def test_labelling_fires_on_first_sms_only(client):
@@ -120,18 +127,22 @@ def test_labelling_fires_on_first_sms_only(client):
     from database import connection
     from datetime import datetime, timezone, timedelta
     with connection() as c:
-        ts = (datetime.now(timezone.utc) - timedelta(hours=1)).isoformat()
-        c.execute(
-            "INSERT INTO sensor_readings (station_id, recorded_at, ph, turbidity_ntu, "
-            "temperature_c, rainfall_mm, provenance) "
-            "VALUES (4, ?, 7.0, 5.0, 22.0, 0.0, 'test')", (ts,)
-        )
+        with c.begin():
+            ts = (datetime.now(timezone.utc) - timedelta(hours=1)).isoformat()
+            c.execute(
+                text(
+                    "INSERT INTO sensor_readings (station_id, recorded_at, ph, turbidity_ntu, "
+                    "temperature_c, rainfall_mm, provenance) "
+                    "VALUES (4, :ts, 7.0, 5.0, 22.0, 0.0, 'test')"
+                ),
+                {"ts": ts},
+            )
     _sms(client, "station 4")
     with connection() as c:
-        labels_after_first = c.execute("SELECT COUNT(*) FROM reading_labels").fetchone()[0]
+        labels_after_first = c.execute(text("SELECT COUNT(*) FROM reading_labels")).fetchone()[0]
     _sms(client, "3")
     _sms(client, "1,3")
     _sms(client, "today")
     with connection() as c:
-        labels_after_complete = c.execute("SELECT COUNT(*) FROM reading_labels").fetchone()[0]
+        labels_after_complete = c.execute(text("SELECT COUNT(*) FROM reading_labels")).fetchone()[0]
     assert labels_after_first == labels_after_complete  # no extra labels added by dialog

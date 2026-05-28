@@ -2,17 +2,22 @@
 
 import json
 
+from sqlalchemy import text
+
 
 def _insert_medical_report():
     from database import connection
     with connection() as c:
-        cur = c.execute(
-            "INSERT INTO illness_reports (station_id, raw_message, parser_version, "
-            "report_source, submitter, case_count, symptoms, risk_tier) "
-            "VALUES (1, 'test', 'v', 'medical_portal', 'dr.smith', 4, ?, 'high')",
-            (json.dumps(["diarrhoea", "fever"]),),
-        )
-        return cur.lastrowid
+        with c.begin():
+            cur = c.execute(
+                text(
+                    "INSERT INTO illness_reports (station_id, raw_message, parser_version, "
+                    "report_source, submitter, case_count, symptoms, risk_tier) "
+                    "VALUES (1, 'test', 'v', 'medical_portal', 'dr.smith', 4, :sym, 'high')"
+                ),
+                {"sym": json.dumps(["diarrhoea", "fever"])},
+            )
+            return cur.lastrowid
 
 
 def test_anonymous_redirected_to_login(client):

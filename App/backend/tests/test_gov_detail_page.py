@@ -3,29 +3,34 @@
 import json
 from datetime import date, timedelta
 
+from sqlalchemy import text
+
 
 def _insert_report(reporter_supplied=False, source="medical_portal"):
     """Helper: insert a report directly via DB and return its id."""
     from database import connection
     with connection() as c:
-        cur = c.execute(
-            "INSERT INTO illness_reports "
-            "(station_id, raw_message, parser_version, report_source, "
-            " submitter, case_count, onset_date, symptoms, risk_tier) "
-            "VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?)",
-            (
-                1,
-                "test message",
-                "test_parser_v1",
-                source,
-                "dr.smith" if source == "medical_portal" else None,
-                3,
-                date.today().isoformat(),
-                json.dumps(["diarrhoea", "dehydration"]),
-                "high" if reporter_supplied else None,
-            ),
-        )
-        return cur.lastrowid
+        with c.begin():
+            cur = c.execute(
+                text(
+                    "INSERT INTO illness_reports "
+                    "(station_id, raw_message, parser_version, report_source, "
+                    " submitter, case_count, onset_date, symptoms, risk_tier) "
+                    "VALUES (:sid, :msg, :pv, :src, :sub, :cc, :od, :sym, :rt)"
+                ),
+                {
+                    "sid": 1,
+                    "msg": "test message",
+                    "pv": "test_parser_v1",
+                    "src": source,
+                    "sub": "dr.smith" if source == "medical_portal" else None,
+                    "cc": 3,
+                    "od": date.today().isoformat(),
+                    "sym": json.dumps(["diarrhoea", "dehydration"]),
+                    "rt": "high" if reporter_supplied else None,
+                },
+            )
+            return cur.lastrowid
 
 
 def test_anonymous_redirected_to_login(client):
