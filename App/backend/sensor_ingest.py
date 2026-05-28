@@ -6,6 +6,7 @@ import os
 from datetime import datetime
 
 from flask import Blueprint, jsonify, request
+from sqlalchemy import text
 
 from database import connection
 
@@ -56,28 +57,32 @@ def ingest():
     provenance = str(payload.get("provenance", "unknown"))
 
     with connection() as conn:
-        station = conn.execute(
-            "SELECT 1 FROM stations WHERE station_id = ?", (station_id,)
-        ).fetchone()
-        if station is None:
-            return jsonify(error=f"unknown station_id: {station_id}"), 400
+        with conn.begin():
+            station = conn.execute(
+                text("SELECT 1 FROM stations WHERE station_id = :sid"),
+                {"sid": station_id},
+            ).first()
+            if station is None:
+                return jsonify(error=f"unknown station_id: {station_id}"), 400
 
-        cursor = conn.execute(
-            """
-            INSERT INTO sensor_readings
-                (station_id, recorded_at, ph, turbidity_ntu,
-                 temperature_c, rainfall_mm, provenance)
-            VALUES (?, ?, ?, ?, ?, ?, ?)
-            """,
-            (
-                station_id,
-                recorded_at.isoformat(),
-                numeric_values["ph"],
-                numeric_values["turbidity_ntu"],
-                numeric_values["temperature_c"],
-                numeric_values["rainfall_mm"],
-                provenance,
-            ),
-        )
+            reading_id = conn.execute(
+                text(
+                    "INSERT INTO sensor_readings "
+                    "(station_id, recorded_at, ph, turbidity_ntu, "
+                    " temperature_c, rainfall_mm, provenance) "
+                    "VALUES (:station_id, :recorded_at, :ph, :turbidity_ntu, "
+                    " :temperature_c, :rainfall_mm, :provenance) "
+                    "RETURNING reading_id"
+                ),
+                {
+                    "station_id": station_id,
+                    "recorded_at": recorded_at.isoformat(),
+                    "ph": numeric_values["ph"],
+                    "turbidity_ntu": numeric_values["turbidity_ntu"],
+                    "temperature_c": numeric_values["temperature_c"],
+                    "rainfall_mm": numeric_values["rainfall_mm"],
+                    "provenance": provenance,
+                },
+            ).scalar_one()
 
-    return jsonify(status="ok", reading_id=cursor.lastrowid), 201
+    return jsonify(status="ok", reading_id=reading_id), 201
