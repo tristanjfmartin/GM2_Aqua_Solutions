@@ -45,6 +45,17 @@ init_db()
 
 STATION_PARSER_VERSION = "lenient_first_int_v1"
 STATION_RE = re.compile(r"\b(\d{1,4})\b")
+# Strict station RE: requires an explicit "station" keyword before the number.
+# Used mid-conversation to distinguish "station 7" (switch) from "3" (case count).
+STATION_EXPLICIT_RE = re.compile(r"\bstation\s+(\d{1,4})\b", re.IGNORECASE)
+
+
+def _parse_explicit_station_id(message: str) -> int | None:
+    """Strict parser: requires the word 'station' before the number."""
+    match = STATION_EXPLICIT_RE.search(message or "")
+    if match is None:
+        return None
+    return int(match.group(1))
 
 
 # ---------------------------------------------------------------------------
@@ -374,67 +385,201 @@ def medical_report_submit():
     return render(success=success)
 
 
+SMS_WINDOW_MINUTES = 30
+
+
+def _find_open_conversation(conn, phone: str):
+    """Return the most recent non-terminal report from this phone within window, or None.
+
+    SQLite's DEFAULT (datetime('now')) stores timestamps as 'YYYY-MM-DD HH:MM:SS'
+    (space-separated, UTC, no timezone designator). We compare with the same
+    format to avoid ASCII-order mismatches from Python's isoformat 'T'/'+00:00'.
+    """
+    if not phone:
+        return None
+    cutoff_dt = datetime.now(timezone.utc) - timedelta(minutes=SMS_WINDOW_MINUTES)
+    # Match SQLite's datetime('now') format: 'YYYY-MM-DD HH:MM:SS'
+    cutoff = cutoff_dt.strftime("%Y-%m-%d %H:%M:%S")
+    return conn.execute(
+        """
+        SELECT * FROM illness_reports
+        WHERE reporter_phone = ?
+          AND received_at >= ?
+          AND dialog_state IN ('awaiting_case_count','awaiting_symptoms','awaiting_onset')
+        ORDER BY report_id DESC LIMIT 1
+        """,
+        (phone, cutoff),
+    ).fetchone()
+
+
+def _mark_abandoned(conn, report_id):
+    conn.execute(
+        "UPDATE illness_reports SET dialog_state = 'abandoned' WHERE report_id = ?",
+        (report_id,),
+    )
+
+
 @app.post("/sms")
 def sms_webhook():
     if not _verify_twilio_signature(request):
         return ("forbidden", 403)
 
+    from sms_dialog import parse_case_count, parse_symptoms, parse_onset
+
     raw_message = request.form.get("Body", "") or ""
     reporter_phone = request.form.get("From", "") or ""
-    station_id = _parse_station_id(raw_message)
     now = datetime.now(timezone.utc)
-
     reply = MessagingResponse()
 
+    is_stop = re.search(r"\bstop\b", raw_message, re.IGNORECASE) is not None
+    # Lenient parser: any bare number — used when there's no open conversation.
+    station_id = _parse_station_id(raw_message)
+    # Strict parser: requires "station N" keyword — used for mid-conversation switches.
+    explicit_station_id = _parse_explicit_station_id(raw_message)
+
     with connection() as conn:
-        station = None
-        if station_id is not None:
+        open_conv = _find_open_conversation(conn, reporter_phone)
+
+        # --- STOP keyword ---------------------------------------------------
+        if is_stop:
+            if open_conv is None:
+                reply.message("No active conversation to opt out of. Thank you.")
+                return str(reply)
+            _mark_abandoned(conn, open_conv["report_id"])
+            reply.message("Opted out. We will no longer reply. Thank you.")
+            return str(reply)
+
+        # --- new station number while in conversation: abandon + restart ----
+        # Require explicit "station N" phrasing to avoid treating dialog replies
+        # (bare numbers like case counts) as station switches.
+        if (explicit_station_id is not None
+                and open_conv is not None
+                and explicit_station_id != open_conv["station_id"]):
+            _mark_abandoned(conn, open_conv["report_id"])
+            open_conv = None
+            # Use the explicit station id for the new conversation.
+            station_id = explicit_station_id
+
+        # --- no conversation: start one or store unparsed ------------------
+        if open_conv is None:
+            if station_id is None:
+                # unparsed; same behaviour as before — record + ask for station
+                conn.execute(
+                    """
+                    INSERT INTO illness_reports
+                        (station_id, reporter_phone, raw_message, parser_version,
+                         report_source, dialog_state)
+                    VALUES (NULL, ?, ?, ?, 'sms', NULL)
+                    """,
+                    (reporter_phone, raw_message, STATION_PARSER_VERSION),
+                )
+                reply.message(
+                    "We received your message but could not identify a station "
+                    "number. Reply with the station number (e.g. '4'). Thank you."
+                )
+                return str(reply)
+
             station = conn.execute(
-                "SELECT name FROM stations WHERE station_id = ?",
+                "SELECT station_id, name FROM stations WHERE station_id = ?",
                 (station_id,),
             ).fetchone()
+            if station is None:
+                conn.execute(
+                    """
+                    INSERT INTO illness_reports
+                        (station_id, reporter_phone, raw_message, parser_version,
+                         report_source, dialog_state)
+                    VALUES (NULL, ?, ?, ?, 'sms', NULL)
+                    """,
+                    (reporter_phone, raw_message, STATION_PARSER_VERSION),
+                )
+                reply.message(
+                    f"Station {station_id} is not in our system. Please check "
+                    "the number and try again. Thank you."
+                )
+                return str(reply)
 
-        # Record the report regardless of whether the station resolved.
-        # Persist station_id only when it actually exists, so the FK holds
-        # and unparsed / unknown-station messages remain available for
-        # human review via the dashboard's "unparsed" badge.
-        resolved_station_id = station_id if station is not None else None
-        cursor = conn.execute(
-            """
-            INSERT INTO illness_reports
-                (station_id, reporter_phone, raw_message, parser_version)
-            VALUES (?, ?, ?, ?)
-            """,
-            (resolved_station_id, reporter_phone, raw_message,
-             STATION_PARSER_VERSION),
-        )
-        report_id = cursor.lastrowid
-
-        if station_id is None:
+            cursor = conn.execute(
+                """
+                INSERT INTO illness_reports
+                    (station_id, reporter_phone, raw_message, parser_version,
+                     report_source, dialog_state)
+                VALUES (?, ?, ?, ?, 'sms', 'awaiting_case_count')
+                """,
+                (station_id, reporter_phone, raw_message, STATION_PARSER_VERSION),
+            )
+            report_id = cursor.lastrowid
+            labelled = label_readings_for_report(
+                conn, report_id=report_id, station_id=station_id, report_time=now,
+            )
             reply.message(
-                "We received your message but could not identify a station "
-                "number. Please reply with the station number "
-                "(e.g. '4'). Thank you."
+                f"Report received for {station['name']} (station {station_id}). "
+                f"{labelled} reading(s) flagged. How many people are sick? "
+                "Reply with a number."
             )
             return str(reply)
 
-        if station is None:
+        # --- continue an in-progress conversation --------------------------
+        report_id = open_conv["report_id"]
+        state = open_conv["dialog_state"]
+
+        if state == "awaiting_case_count":
+            n = parse_case_count(raw_message)
+            if n is None:
+                reply.message(
+                    "I didn't understand. How many people are sick? Reply with a number."
+                )
+                return str(reply)
+            conn.execute(
+                "UPDATE illness_reports SET case_count = ?, dialog_state = 'awaiting_symptoms' "
+                "WHERE report_id = ?",
+                (n, report_id),
+            )
             reply.message(
-                f"Station {station_id} is not in our system. Please check "
-                "the number and try again. Thank you."
+                f"Noted, {n} cases. Which symptoms? Reply with numbers, e.g. '1,3'. "
+                "1=diarrhoea 2=vomiting 3=fever 4=dehydration."
             )
             return str(reply)
 
-        labelled = label_readings_for_report(
-            conn, report_id=report_id, station_id=station_id, report_time=now
-        )
+        if state == "awaiting_symptoms":
+            syms = parse_symptoms(raw_message)
+            if syms is None:
+                reply.message(
+                    "I didn't understand. Reply with numbers, e.g. '1,3'. "
+                    "1=diarrhoea 2=vomiting 3=fever 4=dehydration."
+                )
+                return str(reply)
+            conn.execute(
+                "UPDATE illness_reports SET symptoms = ?, dialog_state = 'awaiting_onset' "
+                "WHERE report_id = ?",
+                (json.dumps(syms), report_id),
+            )
+            reply.message(
+                f"Noted: {', '.join(syms)}. When did symptoms start? "
+                "Reply 'today', 'yesterday', or DD/MM."
+            )
+            return str(reply)
 
-    reply.message(
-        f"Report received for {station['name']} (station {station_id}). "
-        f"Thank you. {labelled} recent reading(s) flagged for review. "
-        "Reply STOP to opt out."
-    )
-    return str(reply)
+        if state == "awaiting_onset":
+            onset = parse_onset(raw_message)
+            if onset is None:
+                reply.message(
+                    "I didn't understand. Reply 'today', 'yesterday', or DD/MM."
+                )
+                return str(reply)
+            conn.execute(
+                "UPDATE illness_reports SET onset_date = ?, dialog_state = 'complete' "
+                "WHERE report_id = ?",
+                (onset.isoformat(), report_id),
+            )
+            reply.message(
+                "Report complete. Stay safe. Reply STOP to opt out."
+            )
+            return str(reply)
+
+        # Defensive — should not reach here for an open conversation.
+        reply.message("Unexpected state. Reply STOP to opt out, or text a station number to start over.")
+        return str(reply)
 
 
 STATION_STATUS_WINDOW_DAYS = 7
