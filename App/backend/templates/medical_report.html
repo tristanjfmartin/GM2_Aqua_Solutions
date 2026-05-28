@@ -176,6 +176,17 @@
                 </div>
 
                 <div class="field">
+                    <label>Risk tier <span class="hint">(your clinical assessment, optional)</span></label>
+                    <select name="risk_tier">
+                        <option value="" selected>Not yet assessed — estimate on review</option>
+                        <option value="low">LOW — non-specific symptoms</option>
+                        <option value="medium">MEDIUM — possible waterborne illness</option>
+                        <option value="high">HIGH — likely waterborne illness, clinical workup recommended</option>
+                        <option value="severe">SEVERE — suspected severe cholera, urgent action</option>
+                    </select>
+                </div>
+
+                <div class="field">
                     <label>Symptoms observed <span class="hint">(tick all that apply)</span></label>
                     <div class="checkboxes">
                         {% for key, label_text in symptoms %}

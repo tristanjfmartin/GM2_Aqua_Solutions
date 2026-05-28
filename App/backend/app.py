@@ -213,6 +213,7 @@ def medical_report_submit():
     onset_date_raw = (request.form.get("onset_date", "") or "").strip()
     notes = (request.form.get("notes", "") or "").strip()
     symptoms_selected = request.form.getlist("symptoms")
+    risk_tier_raw = (request.form.get("risk_tier", "") or "").strip().lower()
 
     def render(success=None, error=None):
         with connection() as conn:
@@ -252,6 +253,10 @@ def medical_report_submit():
         except ValueError:
             return render(error="Onset date must be YYYY-MM-DD.")
 
+    if risk_tier_raw not in ("", "low", "medium", "high", "severe"):
+        return render(error="Invalid risk tier value.")
+    risk_tier_value = risk_tier_raw or None
+
     # Validate the selected symptoms against the canonical list.
     valid_keys = {key for key, _label in SYMPTOMS}
     symptoms_selected = [s for s in symptoms_selected if s in valid_keys]
@@ -273,8 +278,9 @@ def medical_report_submit():
             """
             INSERT INTO illness_reports
                 (station_id, reporter_phone, raw_message, parser_version,
-                 report_source, submitter, case_count, onset_date, symptoms)
-            VALUES (?, NULL, ?, ?, 'medical_portal', ?, ?, ?, ?)
+                 report_source, submitter, case_count, onset_date, symptoms,
+                 risk_tier)
+            VALUES (?, NULL, ?, ?, 'medical_portal', ?, ?, ?, ?, ?)
             """,
             (
                 station_id,
@@ -284,6 +290,7 @@ def medical_report_submit():
                 case_count,
                 onset_date_raw or None,
                 json.dumps(symptoms_selected),
+                risk_tier_value,
             ),
         )
         report_id = cursor.lastrowid
