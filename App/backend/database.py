@@ -129,22 +129,34 @@ SEED_STATIONS = [
 ]
 
 
-# Columns that may be missing from an existing illness_reports table on an
-# older deploy. Re-applied idempotently in _migrate.
+# Columns that may be missing from an existing illness_reports table on a
+# pre-Phase-C deploy. CHECK constraints are inlined so an ALTER-TABLE
+# upgrade path lands them on the column, matching the Table-level
+# CheckConstraints that fire on a fresh CREATE TABLE.
 _REPORT_BACKFILL_COLUMNS = [
     ("report_source", "TEXT NOT NULL DEFAULT 'sms'"),
     ("submitter",     "TEXT"),
     ("case_count",    "INTEGER"),
     ("onset_date",    "TEXT"),
     ("symptoms",      "TEXT"),
-    ("risk_tier",     "TEXT"),
-    ("dialog_state",  "TEXT"),
+    ("risk_tier",     "TEXT CHECK (risk_tier IS NULL OR risk_tier IN "
+                      "('low','medium','high','severe'))"),
+    ("dialog_state",  "TEXT CHECK (dialog_state IS NULL OR dialog_state IN "
+                      "('awaiting_case_count','awaiting_symptoms',"
+                      "'awaiting_onset','complete','abandoned'))"),
 ]
 
 
 @contextmanager
 def connection() -> Iterator[Connection]:
-    """Yield a SQLAlchemy connection. Callers wrap writes in conn.begin()."""
+    """Yield a SQLAlchemy 2.x Connection.
+
+    Writes must be committed explicitly. SQLAlchemy 2.x auto-begins a
+    transaction on the first statement and silently rolls it back when
+    the Connection closes, so callers either need ``conn.commit()`` or,
+    preferably, ``with conn.begin():`` around their write block.
+    Read-only callers can ignore the transaction.
+    """
     conn = get_engine().connect()
     try:
         yield conn
@@ -176,11 +188,13 @@ def _migrate(conn: Connection) -> None:
 def init_db() -> None:
     """Create all tables, run any needed column-level migrations, and seed stations.
 
-    Safe to call repeatedly. Designed to run on every Flask startup.
+    Safe to call repeatedly. Designed to run on every Flask startup. All
+    DDL runs in one transaction so a Postgres failure mid-migration rolls
+    back cleanly.
     """
     engine = get_engine()
-    metadata.create_all(engine)
     with engine.begin() as conn:
+        metadata.create_all(conn)
         _migrate(conn)
         for sid, name, lat, lon in SEED_STATIONS:
             conn.execute(
